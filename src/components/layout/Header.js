@@ -125,7 +125,7 @@ export default function Header() {
                     <h1 className="name">Zakerias Rowland-Jones</h1>
                     <div className="title">Software Engineer</div>
                     <div className="profile">
-                        <p>As a young IT professional and 2012 graduate from <a href="https://www.coventry.ac.uk/">Coventry University</a>, I am eager to continue developing my skills and gain valuable work experiences. I currently serve as a Software Engineer at Loughborough University, where I am responsible for business analysis, package implementation, software development and user support tasks in order to meet the University's corporate information systems&#39; requirements.</p>
+                        <p>As a young IT professional and 2012 graduate from <a href="https://www.coventry.ac.uk/">Coventry University</a>, I am eager to continue developing my skills and gain valuable work experiences. I currently serve as a Software Engineer at Loughborough University, where I am responsible for business analysis, package implementation, software development and user support tasks in order to meet the University&#39;s corporate information systems&#39; requirements.</p>
                     </div>{/* profile */}
                 </div>{/* container */}
             </div>{/* intro */}
@@ -134,7 +134,7 @@ export default function Header() {
             <div className="contact-info">
                 <div className="container text-center">
                     <ul className="list-inline">
-                        <li className="email list-inline-item"><a href="https://uk.linkedin.com/in/zakerias-rowland-jones-9092338b">Let's Work Together</a></li>
+                        <li className="email list-inline-item"><a href="https://uk.linkedin.com/in/zakerias-rowland-jones-9092338b">Let&#39;s Work Together</a></li>
                         {/* <li className="list-inline-item"><i className="fas fa-mobile-alt mr-2"></i><a href="#">0123 456 7890</a></li> */}
                         {/* <li className="website list-inline-item"><i className="fas fa-globe mr-2"></i><a href="https://www.zakerias.com/" target="_blank">zakerias.com</a></li> */}
                     </ul>

@@ -38,13 +38,6 @@ export default function Header() {
     <meta name="author" content="" />
     <link rel="shortcut icon" href="favicon.ico" />
 
-    {/* FontAwesome JS */}
-    <Script defer src="/assets/js/all.js" strategy="beforeInteractive" />
-
-    {/* External JS */}
-    <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" strategy="beforeInteractive" />
-    <Script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" strategy="beforeInteractive" />
-
     {/* Load randomly selected theme stylesheet */}
     {themeHref && <link rel="preload" href={themeHref} as="style" onload="this.rel='stylesheet'"/>}
     </Head>
