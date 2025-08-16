@@ -29,7 +29,7 @@ export default function ProjectCard({ project }) {
           {/* Front of the card */}
           <div className="item-inner">
             <figure className="figure">
-              <img className="img-fluid" src={project.image} alt={project.title} />
+              <img className="img-fluid" src={project.image} alt={project.title} width={1024} height={1024} />
             </figure>
             <div className="content text-start">
               <h3 className="sub-title">

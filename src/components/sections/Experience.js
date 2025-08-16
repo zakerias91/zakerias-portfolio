@@ -12,7 +12,7 @@ export default function Experience() {
                <div key={index} className="item">
                   <div className="work-place">
                      <h3 className="place">{item.company}</h3>
-                     <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} className="mr-1" />{item.location}</div>
+                     <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} className="mr-1" fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1}} />{item.location}</div>
                   </div>
                   <div className="job-meta">
                      <div className="title">{item.role}</div>
