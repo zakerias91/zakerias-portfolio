@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
+import Image from "next/image";
 
 export default function Header() {
 
@@ -103,25 +104,32 @@ export default function Header() {
             {/* Top Action Bar */}
             <div className="top-bar container-fluid">
                 <div className="actions">
-                    <a className="btn d-none d-md-inline-block" href="https://uk.linkedin.com/in/zakerias-rowland-jones-9092338b"><FontAwesomeIcon icon={faPaperPlane} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1}} /> Hire Me</a>
-                    <a className="btn" href="assets/files/CV_Zakerias_Online.pdf" target="_blank"><FontAwesomeIcon icon={faDownload} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1}} /> Download My Resume</a>
+                    <a className="btn d-none d-md-inline-block" href="https://uk.linkedin.com/in/zakerias-rowland-jones-9092338b"><FontAwesomeIcon icon={faPaperPlane} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1 }} /> Hire Me</a>
+                    <a className="btn" href="assets/files/CV_Zakerias_Online.pdf" target="_blank"><FontAwesomeIcon icon={faDownload} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1 }} /> Download My Resume</a>
                 </div>{/* actions */}
 
                 {/* Social Links */}
                 <ul className="social list-inline">
-                    <li className="list-inline-item"><a href="https://uk.linkedin.com/in/zakerias-rowland-jones-9092338b"><FontAwesomeIcon icon={faLinkedinIn} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1}} /></a></li>
+                    <li className="list-inline-item"><a href="https://uk.linkedin.com/in/zakerias-rowland-jones-9092338b"><FontAwesomeIcon icon={faLinkedinIn} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1 }} /></a></li>
                     {/* <li className="list-inline-item"><a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a></li> */}
-                    <li className="list-inline-item"><a href="https://github.com/zakerias91"><FontAwesomeIcon icon={faGithubAlt} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1}} /></a></li>
+                    <li className="list-inline-item"><a href="https://github.com/zakerias91"><FontAwesomeIcon icon={faGithubAlt} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1 }} /></a></li>
                     {/* <li className="list-inline-item"><a href="#"><i className="fab fa-instagram" aria-hidden="true"></i></a></li> */}
                     {/* <li className="list-inline-item"><a href="#"><i className="fab fa-skype" aria-hidden="true"></i></a></li> */}
                 </ul>{/* social */}
-                
+
             </div>{/* top-bar */}
 
             {/* Intro Section */}
             <div className="intro">
                 <div className="container text-center">
-                    <img className="profile-image" src="assets/images/profile-picture.png" alt="profile image" width={160} height={160}></img>
+                    <Image
+                        src="/assets/images/profile-picture.png"
+                        alt="profile image"
+                        width={160}
+                        height={160}
+                        className="profile-image"
+                        priority
+                    />
                     <h1 className="name">Zakerias Rowland-Jones</h1>
                     <div className="title">Software Engineer</div>
                     <div className="profile">

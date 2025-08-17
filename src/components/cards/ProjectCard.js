@@ -6,6 +6,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function ProjectCard({ project }) {
   const [flipped, setFlipped] = useState(false); // State to track if the card is flipped
@@ -29,7 +30,16 @@ export default function ProjectCard({ project }) {
           {/* Front of the card */}
           <div className="item-inner">
             <figure className="figure">
-              <img className="img-fluid" src={project.image} alt={project.title} width={1024} height={1024} />
+              <Image
+                src={project.image}
+                alt={project.title}
+                width={1024} 
+                height={1024}
+                className="img-fluid"
+                sizes="(max-width: 768px) 100vw, 
+         (max-width: 1200px) 50vw, 
+         33vw"
+              />
             </figure>
             <div className="content text-start">
               <h3 className="sub-title">

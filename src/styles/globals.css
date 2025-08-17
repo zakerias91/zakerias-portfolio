@@ -3,6 +3,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.intro, .intro * {
+  animation: none !important;
+  transition: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+}
+
 .fas {
   margin-right: 5px;
 }
