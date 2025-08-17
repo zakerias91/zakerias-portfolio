@@ -1,30 +1,6 @@
-/* 
- * Dynamically selects a random theme CSS file on mount
- * Injects page title, favicon, and responsive meta tags
- * Loads FontAwesome and Bootstrap JS libraries (via CDN)
- */
-
 import Head from 'next/head'
-import Script from 'next/script';
-import { useEffect, useState } from "react";
 
 export default function Header() {
-
-  const [themeHref, setThemeHref] = useState("");
-
-  useEffect(() => {
-    // List of available theme stylesheets
-    const themes = [
-      "theme-1.css", "theme-2.css", "theme-3.css", "theme-4.css",
-      "theme-5.css", "theme-6.css", "theme-7.css", "theme-8.css",
-      "theme-9.css", "theme-10.css", "theme-11.css", "theme-12.css",
-      "theme-13.css", "theme-14.css", "theme-15.css", "theme-16.css"
-    ];
-
-    // Randomly pick a theme stylesheet from the list
-    const randomTheme = themes[Math.floor(Math.random() * themes.length)];
-    setThemeHref(`/assets/css/${randomTheme}`);
-  }, []);
   
   return (
     <Head>
@@ -37,9 +13,6 @@ export default function Header() {
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link rel="shortcut icon" href="favicon.ico" />
-
-    {/* Load randomly selected theme stylesheet */}
-    {themeHref && <link rel="preload" href={themeHref} as="style" onload="this.rel='stylesheet'"/>}
     </Head>
   );
 }
