@@ -110,9 +110,9 @@ export default function Header() {
 
                 {/* Social Links */}
                 <ul className="social list-inline">
-                    <li className="list-inline-item"><a href="https://uk.linkedin.com/in/zakerias-rowland-jones-9092338b"><FontAwesomeIcon icon={faLinkedinIn} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1 }} /></a></li>
+                    <li className="list-inline-item"><a href="https://uk.linkedin.com/in/zakerias-rowland-jones-9092338b" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedinIn} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1 }} /></a></li>
                     {/* <li className="list-inline-item"><a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a></li> */}
-                    <li className="list-inline-item"><a href="https://github.com/zakerias91"><FontAwesomeIcon icon={faGithubAlt} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1 }} /></a></li>
+                    <li className="list-inline-item"><a href="https://github.com/zakerias91" aria-label="GitHub"><FontAwesomeIcon icon={faGithubAlt} fixedWidth style={{ width: '1.25rem', height: '1rem', lineHeight: 1 }} /></a></li>
                     {/* <li className="list-inline-item"><a href="#"><i className="fab fa-instagram" aria-hidden="true"></i></a></li> */}
                     {/* <li className="list-inline-item"><a href="#"><i className="fab fa-skype" aria-hidden="true"></i></a></li> */}
                 </ul>{/* social */}
