@@ -8,7 +8,7 @@ const sites = [
         imageAlt: "The entrance to Karnak Temple",
         visited: "2012",
         review:
-            "Karnak is the largest ancient religious complex ever built, and four thousand years have done nothing to diminish its power. Walking the Avenue of Sphinxes at dawn, with the hypostyle hall's 134 columns looming out of the half-light, is one of those rare experiences that quietly rearranges your sense of how old the world is.",
+            "Karnak is the largest ancient religious complex ever built, and four thousand years have done nothing to diminish its power. Walking the Avenue of Sphinxes, with the Hypostyle Hall's 134 columns looming out of the half-light, is one of those rare experiences that quietly rearranges your sense of how old the world is.",
     },
     {
         name: "Petra",
@@ -30,7 +30,7 @@ const sites = [
         imageAlt: "The Kukulcan pyramid at Chichen Itza",
         visited: "2016",
         review:
-            "A certified Wonder of the World, and the title is earned. El Castillo, the great pyramid of Kukulcan, rises from the jungle floor with an authority that photographs simply cannot prepare you for. Arrive early before the crowds arrive and the heat builds, and give yourself time to explore the ball court and the Sacred Cenote. A genuinely extraordinary place.",
+            "A certified Wonder of the World, and the title is earned. El Castillo, the great pyramid of Kukulcan, rises from the jungle floor with an authority that photographs simply cannot prepare you for. Arrive early before the crowds and the heat builds, and give yourself time to explore the ball court and the Sacred Cenote. A genuinely extraordinary place.",
     },
     {
         name: "Valley of the Kings",
@@ -41,7 +41,7 @@ const sites = [
         imageAlt: null,
         visited: "2012",
         review: 
-            "What you take away from the Valley of the Kings depends almost entirely on which tombs are open on the day you visit. On my visit I was fortunate enough to stand in the burial chamber of Tutankhamun, which is as quietly extraordinary as it sounds. Sadly, years of strict photography restrictions mean I have no photos from inside, but some experiences are better without a camera in your hand.",
+            "What you take away from the Valley of the Kings depends almost entirely on which tombs are open on the day you visit. On my visit I was fortunate enough to stand in the burial chamber of Tutankhamun, which is as extraordinary as it sounds. Sadly, years of strict photography restrictions mean I have no photos from inside, but some experiences are better without a camera in your hand.",
     },
     {
         name: "Jerash",
@@ -62,7 +62,8 @@ const sites = [
         image: "/assets/images/ancient/Ephesus.jpg",
         imageAlt: "The Library of Celsus at Ephesus",
         visited: "2016",
-        review: null,
+        review: 
+            "I arrived at Ephesus in 2016 knowing almost nothing about it, which in retrospect was the best possible way to experience it. The Library of Celsus stopped me in my tracks. The Grand Theatre, which seated 25,000 people, still feels vast. Turkey is one of the richest countries in the world for ancient sites and Ephesus sits at the top of that list for good reason. The embarrassing truth is it should have been on my radar years earlier.",
     },
     {
         name: "Pyramids of Giza",
@@ -73,7 +74,7 @@ const sites = [
         imageAlt: "The Pyramids of Giza",
         visited: "2012",
         review:
-            "The experience depends entirely on what you do here. Standing outside the Great Pyramid and photographing it from the plateau is impressive, but it will not change your life. Going inside will. The descending passage, the Grand Gallery, the King's Chamber: there is something almost hallucinatory about standing at the heart of a structure built in 2560 BC. Book the interior ticket in advance and do not skip it under any circumstances.",
+            "The experience depends entirely on what you do here. Standing outside the Great Pyramid and photographing it from the plateau is impressive, but it will not change your life. Going inside will. The descending passage, the Grand Gallery, the King's Chamber: there is something almost euphoric about standing at the heart of a structure built in 2560 BC. Book the interior ticket in advance and do not skip it under any circumstances.",
     },
     {
         name: "Philae Temple",
@@ -83,7 +84,8 @@ const sites = [
         image: "/assets/images/ancient/Philae.jpg",
         imageAlt: "Philae Temple on the Nile",
         visited: "2012",
-        review: null,
+        review: 
+            "The original island of Philae was gradually submerged following the construction of the Aswan Dam. Recognising what was being lost, UNESCO coordinated a rescue operation between 1972 and 1980 to dismantle the temple complex and reconstruct it stone by stone on the higher ground of nearby Agilkia Island. The only way to reach it is by boat, which gives the approach a sense of occasion that most ancient sites cannot manufacture. The temple itself is exceptionally well preserved, and the story of how it got there makes it all the more worth visiting.",
     },
     {
         name: "Acropolis",
@@ -97,16 +99,6 @@ const sites = [
             "Perched on a limestone outcrop above the city, the Acropolis is the defining image of Western antiquity, and in person it delivers. The Parthenon is simultaneously more weathered and more commanding than you expect. Visit at opening time to get ahead of the tour groups, and spend as long as the museum will allow you. The original friezes and the reconstructed models of the temple in its painted glory are well worth an hour of your time.",
     },
     {
-        name: "Kom Ombo",
-        location: "Aswan, Egypt",
-        country: "Egypt",
-        wonder: false,
-        image: "/assets/images/ancient/KomOmbo.jpg",
-        imageAlt: "Kom Ombo Temple on the Nile",
-        visited: "2012",
-        review: null,
-    },
-    {
         name: "Olympia",
         location: "Olympia, Greece",
         country: "Greece",
@@ -115,7 +107,7 @@ const sites = [
         imageAlt: "The ruins at Olympia",
         visited: "2016",
         review:
-            "Olympia surprised me more than almost anywhere on this list. The ruins themselves, the gymnasium, the stadium, the fallen columns of the Temple of Zeus, have a melancholy beauty that is entirely their own. But the museum is the real revelation: arguably the finest archaeological museum in Europe, with the pediment sculptures from the Temple of Zeus and the statue of Hermes by Praxiteles. Better, on balance, than the Acropolis Museum.",
+            "Olympia surprised me more than almost anywhere on this list. The ruins themselves, the gymnasium, the stadium, the fallen columns of the Temple of Zeus, have a melancholic beauty that is entirely their own. But the museum is the real revelation: arguably the finest archaeological museum in Europe, with the pediment sculptures from the Temple of Zeus and the statue of Hermes by Praxiteles. Better, on balance, than the Acropolis Museum.",
     },
     {
         name: "Pompeii",
@@ -129,14 +121,15 @@ const sites = [
             "My visit to Pompeii was disappointing, though I am willing to accept some of the blame. I had spent the morning climbing Vesuvius, which turned out to be the day's real highlight. Whether it was the guide, the route we took, or simply the wrong set of expectations, something never clicked. The contemporary art installations scattered through the ruins did not help. I would go back and do it properly before writing it off entirely.",
     },
     {
-        name: "Roman Forum",
-        location: "Rome, Italy",
-        country: "Italy",
+        name: "Kom Ombo",
+        location: "Aswan, Egypt",
+        country: "Egypt",
         wonder: false,
-        image: null,
-        imageAlt: null,
-        visited: "2016",
-        review: null,
+        image: "/assets/images/ancient/KomOmbo.jpg",
+        imageAlt: "Kom Ombo Temple on the Nile",
+        visited: "2012",
+        review: 
+            "Timing is everything at Kom Ombo, and I was fortunate enough to visit in the late evening when the temple was lit by floodlights, the stone glowing amber against the dark sky. The mummified crocodiles on display are a striking curiosity, and the nilometer, used by ancient Egyptians to measure and predict the flooding of the Nile, is easy to overlook but well worth finding. One of the more underrated stops on the Egyptian itinerary.",
     },
     {
         name: "Corinth",
@@ -150,6 +143,39 @@ const sites = [
             "About an hour from Athens and easily done as a day trip, Corinth is well worth the detour. The Temple of Apollo anchors the site, its surviving Doric columns standing with the kind of stubborn dignity that only stone this old can manage. Behind it, the hulking limestone mass of Acrocorinth dominates the skyline. Climb it if you have the energy. The view alone justifies the visit.",
     },
     {
+        name: "Luxor Temple",
+        location: "Luxor, Egypt",
+        country: "Egypt",
+        wonder: false,
+        image: "/assets/images/ancient/Luxor.jpg",
+        imageAlt: "Luxor Temple",
+        visited: "2012",
+        review: 
+            "Luxor Temple suffers from an unfortunate accident of geography: it sits less than three kilometres from Karnak, which means most visitors see both on the same day and the comparison is inevitable. On its own terms it is a spectacular monument, particularly at night when the floodlights give the sandstone a burnished, almost cinematic quality. But Karnak is Karnak, and nothing in Egypt quite survives that proximity.",
+    },
+    {
+        name: "Roman Forum",
+        location: "Rome, Italy",
+        country: "Italy",
+        wonder: false,
+        image: "/assets/images/ancient/Forum.jpg",
+        imageAlt: "The ruins of the Roman Forum",
+        visited: "2016",
+        review: 
+            "More than anywhere else in Rome, the Forum feels like the real thing. You are walking the same roads the ancient Romans walked, through a site that evolved organically over a thousand years. It is large, rarely as crowded as you might expect, and easy to underestimate without the right guide to bring it to life.",
+    },
+    {
+        name: "Agora of Athens",
+        location: "Athens, Greece",
+        country: "Greece",
+        wonder: false,
+        image: "/assets/images/ancient/Agora.jpg",
+        imageAlt: "Temple of Hephaestus in the Agora of Athens",
+        visited: "2025",
+        review: 
+            "Quieter and less pressured than the Acropolis, the Agora rewards the extra hour. The Temple of Hephaestus is the most intact ancient temple in Greece and reason enough to visit, and the museum inside the Stoa of Attalos is better than it looks from the outside. If you are pushed for time the Acropolis wins, but if you can do both, do both.",
+    },
+    {
         name: "Diocletian's Palace",
         location: "Split, Croatia",
         country: "Croatia",
@@ -161,15 +187,26 @@ const sites = [
             "What makes Diocletian's Palace remarkable is that it never became a ruin, the city simply grew up inside it. Walk the medieval lanes of Split and you are walking the corridors of a fourth-century Roman emperor's retirement complex. The vaulted substructure beneath the old town is a labyrinth worth getting genuinely lost in. One of the most unusual and rewarding ancient sites in Europe.",
     },
     {
-        name: "Acropolis of Lindos",
-        location: "Rhodes, Greece",
-        country: "Greece",
+        name: "Dendera Temple",
+        location: "Dendera, Egypt",
+        country: "Egypt",
         wonder: false,
-        image: "/assets/images/ancient/Lindos.jpg",
-        imageAlt: "The Acropolis of Lindos on Rhodes",
-        visited: "2015",
-        review:
-            "The climb to the acropolis above Lindos is steep but brief, and the view from the top, out over the white-washed village, the circular harbour, and the Aegean beyond, is one of the best in Greece. The Temple of Athena Lindia is modest in scale but the setting does all the work. Go in the early morning before the cruise ship crowds arrive.",
+        image: "/assets/images/ancient/Dendera.jpg",
+        imageAlt: "The Temple of Hathor at Dendera",
+        visited: "2012",
+        review: 
+            "Egypt has enough temples to induce a kind of reverent exhaustion, and Dendera is a casualty of that. It is genuinely impressive but with other sites competing for your attention, it can feel like an afterthought. Visit if your itinerary allows it. Just do not rearrange your trip around it.",
+    },
+    {
+        name: "Theatre of Taormina",
+        location: "Sicily, Italy",
+        country: "Italy",
+        wonder: false,
+        image: "/assets/images/ancient/Taormina.jpg",
+        imageAlt: "The ancient city of Taormina",
+        visited: "2025",
+        review: 
+            "The ancient theatre at Taormina was built to hold 10,000 people, and whoever chose the location had an eye for drama. Carved into the hillside above the Ionian coast, it frames a view of the sea and Mount Etna that has been stopping people in their tracks for two thousand years. The town itself matches the setting, lively, elegant and unashamedly beautiful. If you are travelling Sicily's eastern coast, Taormina is not a detour. It is the destination.",
     },
     {
         name: "Side",
@@ -179,7 +216,19 @@ const sites = [
         image: "/assets/images/ancient/Side.jpg",
         imageAlt: "Ancient ruins at Side",
         visited: "2013",
-        review: null,
+        review: 
+            "Strung along Turkey's southern coast, Side is an open-air museum in the most literal sense. Roman columns and temple fragments woven into the streets of a working town, with the Mediterranean visible at almost every turn. We stumbled across it on a tour out of Antalya in 2013 and it turned out to be one of the more pleasant surprises of the trip. Cap the day with a visit to the Antalya Archaeological Museum on the way back. It is one of the finest collections of classical sculpture in the country and consistently underrated.",
+    },
+    {
+        name: "Acropolis of Lindos",
+        location: "Rhodes, Greece",
+        country: "Greece",
+        wonder: false,
+        image: "/assets/images/ancient/Lindos.jpg",
+        imageAlt: "The Acropolis of Lindos on Rhodes",
+        visited: "2015",
+        review:
+            "The climb to the acropolis above Lindos is steep but brief, and the view from the top, out over the white-washed village, the circular harbour, and the Aegean beyond, is one of the best in Greece. The Temple of Athena Lindia is modest in scale but the setting does all the work. Go in the early morning before the cruise ship crowds arrive.",
     },
     {
         name: "Mortuary Temple of Hatshepsut",
@@ -204,17 +253,6 @@ const sites = [
             "The climb up the Ixmoja pyramid, 120 steps at a vertiginous pitch, rope in hand, is one of those physical experiences that burns itself into memory. From the top, the Yucatan jungle stretches to every horizon: an unbroken canopy hiding dozens of lesser ruins still reclaimed by the trees. The surrounding site is pleasant but unspectacular. Come for the pyramid, and do not let anyone talk you out of the ascent.",
     },
     {
-        name: "Dendera Temple",
-        location: "Dendera, Egypt",
-        country: "Egypt",
-        wonder: false,
-        image: "/assets/images/ancient/Dendera.jpg",
-        imageAlt: "The Temple of Hathor at Dendera",
-        visited: "2012",
-        review: 
-            "Egypt has enough temples to induce a kind of reverent exhaustion, and Dendera is a casualty of that. It is genuinely impressive but with other sites competing for your attention, it can feel like an afterthought. Visit if your itinerary allows it. Just do not rearrange your trip around it.",
-    },
-    {
         name: "Step Pyramid of Djoser",
         location: "Saqqara, Egypt",
         country: "Egypt",
@@ -224,38 +262,6 @@ const sites = [
         visited: "2012",
         review:
             "The world's oldest monumental stone structure, and the prototype for everything that followed. Stand at the entrance colonnade and notice how the columns are buttressed against the walls, Imhotep's architects, building in stone for the first time at this scale, did not yet trust columns to stand alone. That single detail makes the whole site feel alive as a moment in the history of human ingenuity rather than just a monument to a long-dead king.",
-    },
-    {
-        name: "Luxor Temple",
-        location: "Luxor, Egypt",
-        country: "Egypt",
-        wonder: false,
-        image: "/assets/images/ancient/Luxor.jpg",
-        imageAlt: "Luxor Temple illuminated at night",
-        visited: "2012",
-        review: 
-            "Luxor Temple suffers from an unfortunate accident of geography: it sits less than three kilometres from Karnak, which means most visitors see both on the same day and the comparison is inevitable. On its own terms it is a spectacular monument, particularly at night when the floodlights give the sandstone a burnished, almost cinematic quality. But Karnak is Karnak, and nothing in Egypt quite survives that proximity.",
-    },
-    {
-        name: "Tulum",
-        location: "Yucatan, Mexico",
-        country: "Mexico",
-        wonder: false,
-        image: "/assets/images/ancient/Tulum.jpg",
-        imageAlt: "Tulum ruins above the Caribbean",
-        visited: "2016",
-        review: null,
-    },
-    {
-        name: "Little Petra",
-        location: "Wadi Musa, Jordan",
-        country: "Jordan",
-        wonder: false,
-        image: "/assets/images/ancient/LittlePetra.jpg",
-        imageAlt: "Little Petra",
-        visited: "2025",
-        review: 
-            "Free to enter and blissfully uncrowded, Little Petra makes for a gentle introduction to the Nabataean world. The siq is narrower, the carvings more intimate, and without the tour groups it is easy to slow down and actually look at things. The honest caveat is that it sits in the shadow of one of the great ancient sites on earth. Think of it as an aperitif rather than a destination in its own right, and you will enjoy it for exactly what it is.",
     },
     {
         name: "Colosseum",
@@ -269,14 +275,48 @@ const sites = [
             "Completed in 80 AD by Emperor Titus, the Colosseum is an engineering marvel and one of the most recognisable buildings on earth. Unfortunately, decades of mass tourism have taken a heavy toll on the experience: queue times are punishing, the site is overcrowded, and the facilities fall far short of what you would expect. Book tickets well in advance, choose the earliest entry slot, and manage your expectations. The history is real; the experience has been badly managed.",
     },
     {
-        name: "Rhodes Town",
-        location: "Rhodes, Greece",
+        name: "Tulum",
+        location: "Yucatan, Mexico",
+        country: "Mexico",
+        wonder: false,
+        image: "/assets/images/ancient/Tulum.jpg",
+        imageAlt: "Tulum ruins above the Caribbean",
+        visited: "2016",
+        review: 
+            "Tulum is a beautiful place to spend a morning, and the setting, Mayan ruins on a clifftop above a turquoise Caribbean coastline, is genuinely spectacular. But it is hard to shake the feeling that the site has been curated more for photographs than for understanding. The ruins themselves are modest, the crowds are considerable, and Chichen Itza sits just two hours up the road.",
+    },
+    {
+        name: "Little Petra",
+        location: "Wadi Musa, Jordan",
+        country: "Jordan",
+        wonder: false,
+        image: "/assets/images/ancient/LittlePetra.jpg",
+        imageAlt: "Little Petra",
+        visited: "2025",
+        review: 
+            "Free to enter and blissfully uncrowded, Little Petra makes for a gentle introduction to the Nabataean world. The siq is narrower, the carvings more intimate, and without the tour groups it is easy to slow down and actually look at things. The honest caveat is that it sits in the shadow of one of the great ancient sites on earth. Think of it as an aperitif rather than a destination in its own right, and you will enjoy it for exactly what it is.",
+    },
+    {
+        name: "Port of Cenchreae",
+        location: "Corinth, Greece",
         country: "Greece",
         wonder: false,
-        image: "/assets/images/ancient/RhodesTown.jpg",
-        imageAlt: "The medieval old town of Rhodes",
-        visited: "2015",
-        review: null,
+        image: "/assets/images/ancient/Cenchreae.jpg",
+        imageAlt: "The ancient city of Cenchreae",
+        visited: "2025",
+        review: 
+            "The eastern port of ancient Corinth, Cenchreae is the kind of site that rewards the curious rather than the committed. The star attraction is the harbour itself, still visible beneath the clear shallow water, an oddly affecting thing to stand beside, knowing it has been submerged for centuries. It is a small site and twenty minutes covers it comfortably, but if you are already making the trip to Corinth it costs nothing to stop by. The beach beside it is a reasonable place to decompress afterwards.",
+    },
+    {
+        name: "Ruins of Memphis",
+        location: "Memphis, Egypt",
+        country: "Egypt",
+        wonder: false,
+        image: "/assets/images/ancient/Memphis.jpg",
+        imageAlt: "Sphinx of Memphis",
+        visited: "2012",
+        review: 
+            "Very little survives of Egypt's first capital city, but the open-air museum makes a convincing case for stopping by. An 80-ton alabaster sphinx and a colossal statue of Ramesses II, originally part of the Great Temple of Ptah, are the headline pieces. Pair it with a visit to Saqqara rather than treating it as a standalone destination and it earns its place in the itinerary comfortably.",
     },
     {
         name: "Colossi of Memnon",
@@ -299,27 +339,6 @@ const sites = [
         visited: "2016",
         review:
             "The Pantheon has survived nearly two thousand years in near-perfect condition, which is a staggering fact and the building's best argument for itself. Step inside and the oculus, the nine-metre hole in the dome, open to the sky, is genuinely moving. The exterior, however, is hemmed in by tourist restaurants and souvenir stalls, and the entrance queue can be long. A must-see, but temper your expectations for the surrounding experience.",
-    },
-    {
-        name: "Cenchreae",
-        location: "Corinth, Greece",
-        country: "Greece",
-        wonder: false,
-        image: "/assets/images/ancient/Cenchreae.jpg",
-        imageAlt: "The ancient city of Cenchreae",
-        visited: "2025",
-        review: 
-            "Cenchreae was the eastern port of Corinth",
-    },
-    {
-        name: "Ruins of Memphis",
-        location: "Memphis, Egypt",
-        country: "Egypt",
-        wonder: false,
-        image: "/assets/images/ancient/Memphis.jpg",
-        imageAlt: "Sphinx of Memphis",
-        visited: "2012",
-        review: null,
     },
 ];
 

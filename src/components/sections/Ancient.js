@@ -12,7 +12,7 @@ const countryColors = {
 
 export default function Ancient() {
     return (
-        <section id="experiences-section" class="experiences-section section">
+        <section id="experiences-section" className="experiences-section section">
             <div style={{ maxWidth: "760px", margin: "0 auto", padding: "2rem 1.5rem", fontFamily: "system-ui, sans-serif" }}>
                 <div style={{ borderBottom: "1px solid #e5e7eb", paddingBottom: "1.5rem", marginBottom: "2rem" }}>
                     <p style={{ fontSize: "12px", letterSpacing: "0.08em", textTransform: "uppercase", color: "#6b7280", margin: "0 0 8px" }}>
@@ -22,7 +22,7 @@ export default function Ancient() {
                         Ancient Sites of the World
                     </h1>
                     <p style={{ fontSize: "15px", color: "#6b7280", margin: 0 }}>
-                        30 ancient sites, visited and ranked
+                        31 ancient sites, visited and ranked
                     </p>
                 </div>
 
