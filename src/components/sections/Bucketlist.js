@@ -1,71 +1,71 @@
 export default function Bucketlist() {
     return (
-        <section id="experiences-section" class="experiences-section section">
-            <h2 class="section-title">Lifetime Goals</h2>
-            <div class="timeline">
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#11088;Career & Personal Development</h3>
+        <section id="experiences-section" className="experiences-section section">
+            <h2 className="section-title">Lifetime Goals</h2>
+            <div className="timeline">
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#11088;Career & Personal Development</h3>
                     </div>
                     <br />
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Dog &amp; Hedgehog, Morrisons" data-bs-html="true">Work in the private sector</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Dog &amp; Hedgehog, Morrisons" data-bs-html="true">Work in the private sector</a></label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Become a manager</label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Glasgow, <span class=&#39;fi fi-gb-sct&#39;></span> (2020)" data-bs-html="true">Business abroad</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Glasgow, <span className=&#39;fi fi-gb-sct&#39;></span> (2020)" data-bs-html="true">Business abroad</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="North Warwickshire &amp; South Leicestershire College" data-bs-html="true">Work in further education</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="North Warwickshire &amp; South Leicestershire College" data-bs-html="true">Work in further education</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Loughborough University" data-bs-html="true">Work in higher education</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Loughborough University" data-bs-html="true">Work in higher education</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="ITIL Foundation Certificate, BCS Foundation Certificate in Data Protection" data-bs-html="true">Ascertain a professional certification</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="ITIL Foundation Certificate, BCS Foundation Certificate in Data Protection" data-bs-html="true">Ascertain a professional certification</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="&quot;To sustain yarak&quot;" data-bs-html="true">Create a mission statement</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="&quot;To sustain yarak&quot;" data-bs-html="true">Create a mission statement</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="27-11-2020" data-bs-html="true">Chair a meeting</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="27-11-2020" data-bs-html="true">Chair a meeting</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="HNC Database Design" data-bs-html="true">Teach a class</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="HNC Database Design" data-bs-html="true">Teach a class</a></label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Learn a trade</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Write a publication</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Mentor a younger or less experienced coworker</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Become a Parish Councillor</label>
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#127891;Education & Learning</h3>
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#127891;Education & Learning</h3>
                     </div><br />
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="2009" data-bs-html="true">Learn to drive</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="2009" data-bs-html="true">Learn to drive</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="2:1 Computer Science" data-bs-html="true">Get a bachelor&#39;s degree</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="2:1 Computer Science" data-bs-html="true">Get a bachelor&#39;s degree</a></label>
                     </div>
-                    <div class="extension">
-                        <div class="checkbox">
+                    <div className="extension">
+                        <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" /> Get a master&#39;s degree</label>
                         </div>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-class="popover-wide" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
                           * At least ten must be considered the greatest of all time. [<a href=&#39;https://thegreatestbooks.org/&#39; target=&#39;_blank&#39;>1</a>]<br />
                           <ol>
                           <li><a href=&#39;https://isbnsearch.org/isbn/9780794851408&#39; target=&#39;_blank&#39;>100 Greatest Ancient Coins</a> by Harlen Berk (2024)</li>
@@ -116,81 +116,81 @@ export default function Bucketlist() {
                         </ol>
                           " data-bs-html="true">Read 100 books</a></label>
                     </div>
-                    <div class="extension">
-                        <div class="checkbox">
+                    <div className="extension">
+                        <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" /> Read 1000 books</label>
                         </div>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Solve a Rubik&#39;s Cube</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Become a certified scuba diver</label>
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#128106;Family & Life Milestones</h3>
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#128106;Family & Life Milestones</h3>
                     </div><br />
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                         <ol>
                             <li>Coban Alexander (b. 2021)</li>
                             <li>Effie Adeline (b. 2024)</li>
                         </ol>
                         " data-bs-html="true">Become a parent</a></label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Become a grandparent</label>
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#128176;Finance & Wealth</h3>
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#128176;Finance & Wealth</h3>
                     </div><br />
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Buy a car</label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="2018" data-bs-html="true">Buy a house</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="2018" data-bs-html="true">Buy a house</a></label>
                     </div>
-                    <div class="extension">
-                        <div class="checkbox">
-                            <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="2020" data-bs-html="true">Buy a detached house</a></label>
+                    <div className="extension">
+                        <div className="checkbox">
+                            <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="2020" data-bs-html="true">Buy a detached house</a></label>
                         </div>
-                        <div class="checkbox">
+                        <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" /> Own multiple properties</label>
                         </div>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Pay off a mortgage</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Earn a passive income</label>
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#127947;Health, Fitness & Challenges</h3>
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#127947;Health, Fitness & Challenges</h3>
                     </div><br />
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Run a marathon</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Complete a triathlon</label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="<a target=&#39;_blank&#39; href=&#39;https://youtu.be/_wfZ6KDR7eI&#39;>08-06-2018</a>" data-bs-html="true">Bench press 100kg</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="<a target=&#39;_blank&#39; href=&#39;https://youtu.be/_wfZ6KDR7eI&#39;>08-06-2018</a>" data-bs-html="true">Bench press 100kg</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Ben Lomond, Ben Nevis, Cadair Idris, Helvellyn, Kinder Scout, Pen y Fan, Scafell Pike, Snowdon" data-bs-html="true"> Climb a mountain</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Ben Lomond, Ben Nevis, Cadair Idris, Helvellyn, Kinder Scout, Pen y Fan, Scafell Pike, Snowdon" data-bs-html="true"> Climb a mountain</a></label>
                     </div>
-                    <div class="extension">
-                        <div class="checkbox">
-                            <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="extension">
+                        <div className="checkbox">
+                            <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                             <ol>
                             <li>Cadair Idris</li>
                             <li>Pen y Fan</li>
@@ -198,16 +198,16 @@ export default function Bucketlist() {
                             </ol>
                             " data-bs-html="true">Climb the Welsh Three Peaks</a></label>
                         </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                        <div className="checkbox">
+                            <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                             <ol>
                             <li>Helvellyn</li>
                             <li>Scafell Pike</li>
                             </ol>
                             " data-bs-html="true">Climb the English Three Peaks</a></label>
                         </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                        <div className="checkbox">
+                            <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                             <ol>
                             <li>Ben Nevis</li>
                             <li>Scafell Pike</li>
@@ -215,8 +215,8 @@ export default function Bucketlist() {
                             </ol>
                             " data-bs-html="true">Climb the National Three Peaks</a></label>
                         </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                        <div className="checkbox">
+                            <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                             <ol>
                             <li>England - Scafell Pike</li>
                             <li>Scotland - Ben Nevis</li>
@@ -224,21 +224,21 @@ export default function Bucketlist() {
                             </ol>
                             " data-bs-html="true">Climb the Five Peaks</a></label>
                         </div>
-                        <div class="checkbox">
+                        <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" /> Climb a mountain outside of the British Isles</label>
                         </div>
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#129655;Altruism & Giving Back</h3>
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#129655;Altruism & Giving Back</h3>
                     </div><br />
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Rescue an animal</label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                           £186
                           <br/><br/>
                           Donated to:
@@ -255,8 +255,8 @@ export default function Bucketlist() {
                           </ul>
                           " data-bs-html="true">Donate £1,000 to charity</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                           Click <a href=&#39;documents/50-random-acts-of-kindness.pdf&#39; target=&#39;_blank&#39;>here</a> for the full list
                           <br/><br/>
                           <ol>
@@ -316,77 +316,77 @@ export default function Bucketlist() {
 
                 </div>
 
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#127793;Sustainability & Nature</h3>
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#127793;Sustainability & Nature</h3>
                     </div><br />
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="1 Oak Tree, 2 Apple Trees" data-bs-html="true">Plant a tree and grow my own food</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="1 Oak Tree, 2 Apple Trees" data-bs-html="true">Plant a tree and grow my own food</a></label>
                     </div>
-                    <div class="extension">
-                        <div class="checkbox">
+                    <div className="extension">
+                        <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" /> Plant a forest (at least 25 trees)</label>
                         </div>
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#127757;Travel (Countries & Regions)</h3>
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#127757;Travel (Countries & Regions)</h3>
                     </div><br />
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Africa, Asia, Europe, North America" data-bs-html="true">Set foot on all 7 continents</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Africa, Asia, Europe, North America" data-bs-html="true">Set foot on all 7 continents</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                               <br/><br/>
-                              <div class=&#39;progress&#39;>
-                                  <div class=&#39;progress-bar  bg-info&#39; role=&#39;progressbar&#39; style=&#39;width:68%;&#39; aria-valuenow=&#39;68&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>68%</div>
+                              <div className=&#39;progress&#39;>
+                                  <div className=&#39;progress-bar  bg-info&#39; role=&#39;progressbar&#39; style=&#39;width:68%;&#39; aria-valuenow=&#39;68&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>68%</div>
                               </div>
                               <br/>
                               <ol>
-                              <li>Antigua and Barbuda <span class=&#39;fi fi-ag&#39;></span></li>
-                              <li>Aruba <span class=&#39;fi fi-aw&#39;></span></li>
-                              <li>Barbados <span class=&#39;fi fi-bb&#39;></span></li>
-                              <li>Bonaire <span class=&#39;fi fi-bq&#39;></span></li>
-                              <li>Cambodia <span class=&#39;fi fi-kh&#39;></span></li>
-                              <li>Croatia <span class=&#39;fi fi-hr&#39;></span></li>
-                              <li>Curacao <span class=&#39;fi fi-cw&#39;></span></li>
-                              <li>Cyprus <span class=&#39;fi fi-cy&#39;></span></li>
-                              <li>Egypt <span class=&#39;fi fi-eg&#39;></span></li>
-                              <li>England <span class=&#39;fi fi-gb-eng&#39;></span></li>
-                              <li>France <span class=&#39;fi fi-fr&#39;></span></li>
-                              <li>Germany <span class=&#39;fi fi-de&#39;></span></li>
-                              <li>Gibraltar <span class=&#39;fi fi-gi&#39;></span></li>
-                              <li>Greece <span class=&#39;fi fi-gr&#39;></span></li>
-                              <li>Italy <span class=&#39;fi fi-it&#39;></span></li>
-                              <li>Jordan <span class=&#39;fi fi-jo&#39;></span></li>
-                              <li>Malaysia <span class=&#39;fi fi-my&#39;></span></li>
-                              <li>Mexico <span class=&#39;fi fi-mx&#39;></span></li>
-                              <li>Montenegro <span class=&#39;fi fi-me&#39;></span></li>
-                              <li>Norway <span class=&#39;fi fi-no&#39;></span></li>
-                              <li>Portugal <span class=&#39;fi fi-pt&#39;></span></li>
-                              <li>Puerto Rico <span class=&#39;fi fi-pr&#39;></span></li>
-                              <li>Saint Lucia <span class=&#39;fi fi-lc&#39;></span></li>
-                              <li>Scotland <span class=&#39;fi fi-gb-sct&#39;></span></li>
-                              <li>Singapore <span class=&#39;fi fi-sg&#39;></span></li>
-                              <li>Slovenia <span class=&#39;fi fi-si&#39;></span></li>
-                              <li>Spain <span class=&#39;fi fi-es&#39;></span></li>
-                              <li>Thailand <span class=&#39;fi fi-th&#39;></span></li>
-                              <li>Turkey <span class=&#39;fi fi-tr&#39;></span></li>
-                              <li>United States <span class=&#39;fi fi-us&#39;></span></li>
-                              <li>Vatican City <span class=&#39;fi fi-va&#39;></span></li>
-                              <li>Vietnam <span class=&#39;fi fi-vn&#39;></span></li>
-                              <li>Virgin Islands (U.S.) <span class=&#39;fi fi-vi&#39;></span></li>
-                              <li>Wales <span class=&#39;fi fi-gb-wls&#39;></span></li>
+                              <li>Antigua and Barbuda <span className=&#39;fi fi-ag&#39;></span></li>
+                              <li>Aruba <span className=&#39;fi fi-aw&#39;></span></li>
+                              <li>Barbados <span className=&#39;fi fi-bb&#39;></span></li>
+                              <li>Bonaire <span className=&#39;fi fi-bq&#39;></span></li>
+                              <li>Cambodia <span className=&#39;fi fi-kh&#39;></span></li>
+                              <li>Croatia <span className=&#39;fi fi-hr&#39;></span></li>
+                              <li>Curacao <span className=&#39;fi fi-cw&#39;></span></li>
+                              <li>Cyprus <span className=&#39;fi fi-cy&#39;></span></li>
+                              <li>Egypt <span className=&#39;fi fi-eg&#39;></span></li>
+                              <li>England <span className=&#39;fi fi-gb-eng&#39;></span></li>
+                              <li>France <span className=&#39;fi fi-fr&#39;></span></li>
+                              <li>Germany <span className=&#39;fi fi-de&#39;></span></li>
+                              <li>Gibraltar <span className=&#39;fi fi-gi&#39;></span></li>
+                              <li>Greece <span className=&#39;fi fi-gr&#39;></span></li>
+                              <li>Italy <span className=&#39;fi fi-it&#39;></span></li>
+                              <li>Jordan <span className=&#39;fi fi-jo&#39;></span></li>
+                              <li>Malaysia <span className=&#39;fi fi-my&#39;></span></li>
+                              <li>Mexico <span className=&#39;fi fi-mx&#39;></span></li>
+                              <li>Montenegro <span className=&#39;fi fi-me&#39;></span></li>
+                              <li>Norway <span className=&#39;fi fi-no&#39;></span></li>
+                              <li>Portugal <span className=&#39;fi fi-pt&#39;></span></li>
+                              <li>Puerto Rico <span className=&#39;fi fi-pr&#39;></span></li>
+                              <li>Saint Lucia <span className=&#39;fi fi-lc&#39;></span></li>
+                              <li>Scotland <span className=&#39;fi fi-gb-sct&#39;></span></li>
+                              <li>Singapore <span className=&#39;fi fi-sg&#39;></span></li>
+                              <li>Slovenia <span className=&#39;fi fi-si&#39;></span></li>
+                              <li>Spain <span className=&#39;fi fi-es&#39;></span></li>
+                              <li>Thailand <span className=&#39;fi fi-th&#39;></span></li>
+                              <li>Turkey <span className=&#39;fi fi-tr&#39;></span></li>
+                              <li>United States <span className=&#39;fi fi-us&#39;></span></li>
+                              <li>Vatican City <span className=&#39;fi fi-va&#39;></span></li>
+                              <li>Vietnam <span className=&#39;fi fi-vn&#39;></span></li>
+                              <li>Virgin Islands (U.S.) <span className=&#39;fi fi-vi&#39;></span></li>
+                              <li>Wales <span className=&#39;fi fi-gb-wls&#39;></span></li>
                               </ol>
                               " data-bs-html="true">Visit 50 countries</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-class="popover-wide" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
                               <br/><br/>
-                              <div class=&#39;progress&#39;>
-                                  <div class=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width:41%&#39; aria-valuenow=&#39;41&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>41%</div>
+                              <div className=&#39;progress&#39;>
+                                  <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width:41%&#39; aria-valuenow=&#39;41&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>41%</div>
                               </div>
                               <br/>
                               <ol>
@@ -434,12 +434,12 @@ export default function Bucketlist() {
                               </ol>
                               " data-bs-html="true">Visit 100 UNESCO World Heritage Sites</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                               <b>Aspiration</b>: 80%
                               <br/><br/>
-                              <div class=&#39;progress&#39;>
-                                  <div class=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>50%</div>
+                              <div className=&#39;progress&#39;>
+                                  <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>50%</div>
                               </div>
                               *Largest visited settlement in each county will be displayed.
                               <br/><br/>
@@ -514,12 +514,12 @@ export default function Bucketlist() {
                               </ol>
                               " data-bs-html="true">Visit counties in the United Kingdom</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                               <b>Aspiration</b>: 80%
                               <br/><br/>
-                              <div class=&#39;progress&#39;>
-                                  <div class=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>50%</div>
+                              <div className=&#39;progress&#39;>
+                                  <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>50%</div>
                               </div>
                               <br/>
                               <ol>
@@ -625,232 +625,232 @@ export default function Bucketlist() {
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#128204;Travel (Bucket List Experiences & Landmarks)</h3>
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#128204;Travel (Bucket List Experiences & Landmarks)</h3>
                     </div><br />
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the vast Neolithic cairn of Barnenez</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the Locmariaquer megaliths, giants of prehistoric Europe</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Enter the ancient passage tomb of Newgrange</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the ceremonial landscape of Avebury</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand within the stone circle of Stonehenge</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the Neolithic village of Skara Brae</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the Ring of Brodgar</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand among the Stones of Stenness</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Visit the ruins of Ur, cradle of urban civilisation</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Visit Samarra, city of early Mesopotamian power</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Stand before the Step Pyramid of Djoser</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Stand before the Great Pyramids of Giza</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the pyramids of Dahshur, birthplace of true pyramid design</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Enter the Pyramid of Unas, inscribed with ancient texts</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the royal necropolis of Abusir</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Visit Abu Rawash, Egypt&#39;s most enigmatic pyramid site</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand beside the Unfinished Obelisk, frozen ancient engineering</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Walk the vast temple complex of Karnak</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Explore Luxor Temple</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the Ramesseum, temple of Ramesses II</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk through Deir el-Medina, village of the tomb builders</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Enter the tombs of the Valley of the Kings</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Stand before the Colossi of Memnon</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Visit Philae Temple, sacred to Isis</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand at Abydos, sacred city of Osiris</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore ancient Alexandria, city of knowledge and empire</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand before the colossal temples of Abu Simbel</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Enter the Lion Gate of Mycenae, heart of Bronze Age Greece</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore Hattusa, capital of the Hittite Empire</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the ceremonial terraces of Persepolis</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Visit Pasargadae, tomb of Cyrus the Great</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the Nubian pyramids of Meroë</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand atop Masada, overlooking the Judean Desert</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Float in the Dead Sea</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand on the Temple Mount, one of history&#39;s most sacred places</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Walk the colonnaded streets of Jerash</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the ruins of Carthage, rival of Rome</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the Roman streets of Volubilis</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand among the colossal temples of Baalbek</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Marvel at the Acropolis of Athens</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Walk the ruins of Ancient Corinth</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Stand at Olympia, birthplace of the Olympic Games</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand at Delphi, centre of the ancient world</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Sit within the theatre of Epidaurus, famed for perfect acoustics</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the sacred island of Delos, birthplace of Apollo</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the Sacred Way to Didyma, oracle of Apollo</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the acropolis of Pergamon, overlooking Anatolia</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand inside the Roman theatre of Aspendos</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Explore Ephesus, Rome&#39;s great city of Asia</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Explore the Colosseum, symbol of Imperial Rome</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the preserved streets of Herculaneum</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Explore the streets of Pompeii</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Walk through Diocletian&#39;s Palace</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the Valley of the Temples at Agrigento</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the streets of Leptis Magna, Rome&#39;s African jewel</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore Dougga, Tunisia&#39;s best-preserved Roman city</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand in the Hippodrome of Constantinople, heart of Byzantine life</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Discover Petra, carved into rose-red stone</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the ruins of Palmyra, desert crossroads of antiquity</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore Hegra, Nabataean city carved into sandstone</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Climb Mount Nemrut, among gods and kings</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Wander the Silk Road ruins of Merv</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the ancient streets of Bukhara</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore Samarkand, jewel of the Silk Road</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Walk the Great Wall of China</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Stand before the Terracotta Army, guardians of China&#39;s first emperor</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Traverse the Maya ruins of Chichen Itza</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the monumental avenues of Teotihuacan</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the jungle-covered ruins of Tikal</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the palace and temples of Palenque</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the Puuc-style ruins of Uxmal</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Explore the remote Maya city of Calakmul</label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                           <b>Aspiration</b>: 3
                           <br/><br/>
-                          <div class=&#39;progress&#39;>
-                              <div class=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 100%&#39; aria-valuenow=&#39;100&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>100%</div>
+                          <div className=&#39;progress&#39;>
+                              <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 100%&#39; aria-valuenow=&#39;100&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>100%</div>
                           </div>
                           <br/>
                           <ol>
@@ -860,13 +860,13 @@ export default function Bucketlist() {
                           </ol><br/>
                           Great Pyramid of Giza (Honorary)" data-bs-html="true">Visit Wonders of the World</a></label>
                     </div>
-                    <div class="extension">
-                        <div class="checkbox">
-                            <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="extension">
+                        <div className="checkbox">
+                            <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                             <b>Aspiration</b>: 3
                             <br/><br/>
-                            <div class=&#39;progress&#39;>
-                                <div class=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 100%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>100%</div>
+                            <div className=&#39;progress&#39;>
+                                <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 100%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>100%</div>
                             </div>
                             <br/>
                             <ol>
@@ -878,12 +878,12 @@ export default function Bucketlist() {
                             " data-bs-html="true">Visit Ancient Wonders of the World</a></label>
                         </div>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                           <b>Aspiration</b>: 5
                           <br/><br/>
-                          <div class=&#39;progress&#39;>
-                              <div class=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 80%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>80%</div>
+                          <div className=&#39;progress&#39;>
+                              <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 80%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>80%</div>
                           </div>
                           <br/>
                           <ol>
@@ -896,28 +896,28 @@ export default function Bucketlist() {
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#127890;Adventure, Experience & Skills</h3>
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#127890;Adventure, Experience & Skills</h3>
                     </div><br />
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Great Pyramid of Giza" data-bs-html="true">Go inside a pyramid</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Great Pyramid of Giza" data-bs-html="true">Go inside a pyramid</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Cobá" data-bs-html="true">Climb a pyramid</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Cobá" data-bs-html="true">Climb a pyramid</a></label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Ride a motorbike</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Experience a glacier up close</label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                           <b>Aspiration</b>: 3
                           <br/><br/>
-                          <div class=&#39;progress&#39;>
-                              <div class=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 33%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>33%</div>
+                          <div className=&#39;progress&#39;>
+                              <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 33%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>33%</div>
                           </div>
                           <br/>
                           <ol>
@@ -925,49 +925,49 @@ export default function Bucketlist() {
                           </ol>
                           " data-bs-html="true">Handle birds of prey</a></label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Go on an aeroplane</label>
                     </div>
-                    <div class="extension">
-                        <div class="checkbox">
+                    <div className="extension">
+                        <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" /> Fly business class</label>
                         </div>
-                        <div class="checkbox">
+                        <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" /> Fly first class</label>
                         </div>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Nile" data-bs-html="true">Go on a river cruise</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Nile" data-bs-html="true">Go on a river cruise</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Caribbean, Mediterranean, South East Asia" data-bs-html="true">Go on a ocean cruise</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Caribbean, Mediterranean, South East Asia" data-bs-html="true">Go on a ocean cruise</a></label>
                     </div>
-                    <div class="extension">
-                        <div class="checkbox">
+                    <div className="extension">
+                        <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" /> Go on a world cruise</label>
                         </div>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Green Day" data-bs-html="true">Go to a concert</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Green Day" data-bs-html="true">Go to a concert</a></label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Bungee jump</label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Mount Vesuvius, La Soufrière" data-bs-html="true">Climb a volcano</a></label>
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Mount Vesuvius, La Soufrière" data-bs-html="true">Climb a volcano</a></label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Drive a traction engine</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Drive a supercar</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Fire a gun</label>
                     </div>
-                    <div class="extension">
-                        <div class="checkbox">
-                            <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                    <div className="extension">
+                        <div className="checkbox">
+                            <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                               <ol>
                               <li>Rifle</li>
                               <li>Shotgun</li>
@@ -975,90 +975,90 @@ export default function Bucketlist() {
                               " data-bs-html="true">Shoot three types of firearms</a></label>
                         </div>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Attend a professional sports game</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Stay awake all night</label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> Start and sign a petition</label>
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">&#127918;Entertainment & Hobbies</h3>
+                <div className="item">
+                    <div className="work-place">
+                        <h3 className="place">&#127918;Entertainment & Hobbies</h3>
                     </div><br />
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-class="popover-wide" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
                           * At least ten must be considered the greatest of all time. [<a href=&#39;https://www.imdb.com/chart/top/&#39; target=&#39;_blank&#39;>1</a>]<br />
                           <ol>
-                          <li>12 Angry Men (1957)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>1917 (2019)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Airplane! (1980) <i class=&#39;fa fa-thumbs-o-down&#39;></i></li>
-                          <li>Alien (1979)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Aliens (1986)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>The Big Lebowski (1998)* <i class=&#39;fa fa-thumbs-o-down&#39;></i></li>
+                          <li>12 Angry Men (1957)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>1917 (2019)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Airplane! (1980) <i className=&#39;fa fa-thumbs-o-down&#39;></i></li>
+                          <li>Alien (1979)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Aliens (1986)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>The Big Lebowski (1998)* <i className=&#39;fa fa-thumbs-o-down&#39;></i></li>
                           <li>The Breakfast Club (1985)</li>
-                          <li>Cast Away (2000) <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>The Circus (1928)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Cool Hand Luke (1967)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Disney (Series)* 42/60 <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Dunkirk (2017) <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Enter the Dragon (1973) <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>The Father (2020)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Forrest Gump (1994)* <i class=&#39;fa fa-thumbs-o-down&#39;></i></li>
-                          <li>The General (1926)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Gladiator (2000)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>The Godfather (1972)* <i class=&#39;fa fa-thumbs-o-up&#39; style=&#39;color: #D4AF37;&#39;></i></li>
-                          <li>The Godfather: Part II (1974)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>The Gold Rush (1925)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>The Great Escape (1963)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>The Green Mile (1999)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Hannibal Lecter (Series)* 3/3 <i class=&#39;fa fa-thumbs-o-up&#39; style=&#39;color: #D4AF37;&#39;></i></li>
-                          <li>Harry Potter (Series)* 8/8 <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>It&#39;s a Wonderful Life (1946)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>James Bond (Series) 14/25 <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Jaws (1975) <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Jurassic Park (1993)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>The Last Song <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Lord of the Rings (Series)* 3/3 <i class=&#39;fa fa-thumbs-o-down&#39;></i></li>
-                          <li>M (1931)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Modern Times (1936)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>No Country for Old Men (2007)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Once Upon a Time in the West (1968)* <i class=&#39;fa fa-thumbs-o-up&#39; style=&#39;color: #D4AF37;&#39;></i></li>
-                          <li>One Flew Over the Cuckoo&#39;s Nest (1975)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Cast Away (2000) <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>The Circus (1928)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Cool Hand Luke (1967)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Disney (Series)* 42/60 <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Dunkirk (2017) <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Enter the Dragon (1973) <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>The Father (2020)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Forrest Gump (1994)* <i className=&#39;fa fa-thumbs-o-down&#39;></i></li>
+                          <li>The General (1926)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Gladiator (2000)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>The Godfather (1972)* <i className=&#39;fa fa-thumbs-o-up&#39; style=&#39;color: #D4AF37;&#39;></i></li>
+                          <li>The Godfather: Part II (1974)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>The Gold Rush (1925)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>The Great Escape (1963)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>The Green Mile (1999)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Hannibal Lecter (Series)* 3/3 <i className=&#39;fa fa-thumbs-o-up&#39; style=&#39;color: #D4AF37;&#39;></i></li>
+                          <li>Harry Potter (Series)* 8/8 <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>It&#39;s a Wonderful Life (1946)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>James Bond (Series) 14/25 <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Jaws (1975) <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Jurassic Park (1993)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>The Last Song <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Lord of the Rings (Series)* 3/3 <i className=&#39;fa fa-thumbs-o-down&#39;></i></li>
+                          <li>M (1931)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Modern Times (1936)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>No Country for Old Men (2007)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Once Upon a Time in the West (1968)* <i className=&#39;fa fa-thumbs-o-up&#39; style=&#39;color: #D4AF37;&#39;></i></li>
+                          <li>One Flew Over the Cuckoo&#39;s Nest (1975)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
                           <li>Pirates of the Caribbean (Series) 3/5</li>
-                          <li>Psycho (1960)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>The Quiet Man (1952) <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Rear Window (1954)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>The Ring (2002) <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Rush (2013)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Saving Private Ryan (1998)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Scarface (1983)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Schindler&#39;s List (1993)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Senna (2010) <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Seven (1995)* <i class=&#39;fa fa-thumbs-o-down&#39;></i></li>
-                          <li>The Shawshank Redemption (1994)* <i class=&#39;fa fa-thumbs-o-up&#39; style=&#39;color: #D4AF37;&#39;></i></li>
-                          <li>The Shining (1980)* <i class=&#39;fa fa-thumbs-o-down&#39;></i></li>
-                          <li>Spirited Away (2001)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Stand By Me (1986)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Star Wars (Series)* 9/9 <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Taxi Driver (1976)* <i class=&#39;fa fa-thumbs-o-down&#39;></i></li>
-                          <li>There Will Be Blood (2007)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Titanic (1997) <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Vertigo (1958)* <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
-                          <li>Wallace and Gromit (Series) 5/5 <i class=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Psycho (1960)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>The Quiet Man (1952) <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Rear Window (1954)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>The Ring (2002) <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Rush (2013)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Saving Private Ryan (1998)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Scarface (1983)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Schindler&#39;s List (1993)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Senna (2010) <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Seven (1995)* <i className=&#39;fa fa-thumbs-o-down&#39;></i></li>
+                          <li>The Shawshank Redemption (1994)* <i className=&#39;fa fa-thumbs-o-up&#39; style=&#39;color: #D4AF37;&#39;></i></li>
+                          <li>The Shining (1980)* <i className=&#39;fa fa-thumbs-o-down&#39;></i></li>
+                          <li>Spirited Away (2001)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Stand By Me (1986)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Star Wars (Series)* 9/9 <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Taxi Driver (1976)* <i className=&#39;fa fa-thumbs-o-down&#39;></i></li>
+                          <li>There Will Be Blood (2007)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Titanic (1997) <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Vertigo (1958)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
+                          <li>Wallace and Gromit (Series) 5/5 <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
                           </ol>
                           " data-bs-html="true">Watch 100 movies</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-class="popover-wide" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
                           Aim to complete at least half of the main titles to fully appreciate the franchise.
                           <br/><br/>
-                          <div class=&#39;progress&#39;>
-                              <div class=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;32&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>32%</div>
+                          <div className=&#39;progress&#39;>
+                              <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;32&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>32%</div>
                           </div>
                           <br/>
                           <ol>
@@ -1073,12 +1073,12 @@ export default function Bucketlist() {
                           </ol>
                           " data-bs-html="true">Explore the Legend of Zelda series</a></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a class="checkbox" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-class="popover-wide" data-bs-content="
+                    <div className="checkbox">
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
                           Aim to complete at least half of the main titles to fully appreciate the franchise.
                           <br/><br/>
-                          <div class=&#39;progress&#39;>
-                              <div class=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>50%</div>
+                          <div className=&#39;progress&#39;>
+                              <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>50%</div>
                           </div>
                           <br/>
                           <ol>
@@ -1099,7 +1099,7 @@ export default function Bucketlist() {
                           </ol>
                           " data-bs-html="true">Explore the Super Mario series</a></label>
                     </div>
-                    <div class="checkbox">
+                    <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Hit a 180 in darts</label>
                     </div>
                     
