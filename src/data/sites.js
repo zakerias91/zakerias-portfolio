@@ -275,6 +275,17 @@ const sites = [
             "Completed in 80 AD by Emperor Titus, the Colosseum is an engineering marvel and one of the most recognisable buildings on earth. Unfortunately, decades of mass tourism have taken a heavy toll on the experience: queue times are punishing, the site is overcrowded, and the facilities fall far short of what you would expect. Book tickets well in advance, choose the earliest entry slot, and manage your expectations. The history is real; the experience has been badly managed.",
     },
     {
+        name: "Tower of Hercules",
+        location: "A Coruña, Spain",
+        country: "Spain",
+        wonder: false,
+        image: "/assets/images/ancient/TowerOfHercules.jpg",
+        imageAlt: "The Tower of Hercules in A Coruña",
+        visited: "2026",
+        review: 
+            "The oldest known Roman lighthouse still standing, built in the first century AD and restored in the eighteenth, the Tower of Hercules was my first ancient site in Spain. An interesting stop, but one that feels like a missed opportunity. Information is sparse, signage is limited, and you are largely left to fill in the gaps yourself.",
+    },
+    {
         name: "Tulum",
         location: "Yucatan, Mexico",
         country: "Mexico",

@@ -8,6 +8,7 @@ const countryColors = {
     Turkey: { bg: "#EDE9FE", text: "#5B21B6" },
     Croatia: { bg: "#FFE4E6", text: "#9F1239" },
     Jordan: { bg: "#FFEDD5", text: "#9A3412" },
+    Spain: { bg: "#FEF08A", text: "#854D0E" }
 };
 
 export default function Ancient() {

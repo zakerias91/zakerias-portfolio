@@ -15,7 +15,7 @@ export default function Bucketlist() {
                         <label><input type="checkbox" disabled="disabled" /> Become a manager</label>
                     </div>
                     <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Glasgow, <span className=&#39;fi fi-gb-sct&#39;></span> (2020)" data-bs-html="true">Business abroad</a></label>
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Glasgow, <span class=&#39;fi fi-gb-sct&#39;></span> (2020)" data-bs-html="true">Business abroad</a></label>
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="North Warwickshire &amp; South Leicestershire College" data-bs-html="true">Work in further education</a></label>
@@ -191,6 +191,15 @@ export default function Bucketlist() {
                     <div className="extension">
                         <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                            <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>3/3 &ndash; 100%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:100%;transition:width 0.3s ease&#39;></div>
+                                </div>
+                            </div>
                             <ol>
                             <li>Cadair Idris</li>
                             <li>Pen y Fan</li>
@@ -200,6 +209,15 @@ export default function Bucketlist() {
                         </div>
                         <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                            <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>2/3 &ndash; 66%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:66%;transition:width 0.3s ease&#39;></div>
+                                </div>
+                            </div>
                             <ol>
                             <li>Helvellyn</li>
                             <li>Scafell Pike</li>
@@ -207,7 +225,32 @@ export default function Bucketlist() {
                             " data-bs-html="true">Climb the English Three Peaks</a></label>
                         </div>
                         <div className="checkbox">
+                            <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                            <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>1/3 &ndash; 33%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:33%;transition:width 0.3s ease&#39;></div>
+                                </div>
+                            </div>
+                            <ol>
+                            <li>Ben Nevis</li>
+                            </ol>
+                            " data-bs-html="true">Climb the Scottish Three Peaks</a></label>
+                        </div>
+                        <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                            <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>3/3 &ndash; 100%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:100%;transition:width 0.3s ease&#39;></div>
+                                </div>
+                            </div>
                             <ol>
                             <li>Ben Nevis</li>
                             <li>Scafell Pike</li>
@@ -217,15 +260,21 @@ export default function Bucketlist() {
                         </div>
                         <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                            <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>3/5 &ndash; 60%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:60%;transition:width 0.3s ease&#39;></div>
+                                </div>
+                            </div>
                             <ol>
                             <li>England - Scafell Pike</li>
                             <li>Scotland - Ben Nevis</li>
                             <li>Wales - Snowdon</li>
                             </ol>
                             " data-bs-html="true">Climb the Five Peaks</a></label>
-                        </div>
-                        <div className="checkbox">
-                            <label><input type="checkbox" disabled="disabled" /> Climb a mountain outside of the British Isles</label>
                         </div>
                     </div>
                 </div>
@@ -321,7 +370,7 @@ export default function Bucketlist() {
                         <h3 className="place">&#127793;Sustainability & Nature</h3>
                     </div><br />
                     <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="1 Oak Tree, 2 Apple Trees" data-bs-html="true">Plant a tree and grow my own food</a></label>
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="3 trees and a variety of fruit and vegetables" data-bs-html="true">Plant a tree and grow my own food</a></label>
                     </div>
                     <div className="extension">
                         <div className="checkbox">
@@ -339,56 +388,66 @@ export default function Bucketlist() {
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
-                              <br/><br/>
-                              <div className=&#39;progress&#39;>
-                                  <div className=&#39;progress-bar  bg-info&#39; role=&#39;progressbar&#39; style=&#39;width:68%;&#39; aria-valuenow=&#39;68&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>68%</div>
+                              <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>36/50 &ndash; 72%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:72%;transition:width 0.3s ease&#39;></div>
+                                </div>
                               </div>
-                              <br/>
                               <ol>
-                              <li>Antigua and Barbuda <span className=&#39;fi fi-ag&#39;></span></li>
-                              <li>Aruba <span className=&#39;fi fi-aw&#39;></span></li>
-                              <li>Barbados <span className=&#39;fi fi-bb&#39;></span></li>
-                              <li>Bonaire <span className=&#39;fi fi-bq&#39;></span></li>
-                              <li>Cambodia <span className=&#39;fi fi-kh&#39;></span></li>
-                              <li>Croatia <span className=&#39;fi fi-hr&#39;></span></li>
-                              <li>Curacao <span className=&#39;fi fi-cw&#39;></span></li>
-                              <li>Cyprus <span className=&#39;fi fi-cy&#39;></span></li>
-                              <li>Egypt <span className=&#39;fi fi-eg&#39;></span></li>
-                              <li>England <span className=&#39;fi fi-gb-eng&#39;></span></li>
-                              <li>France <span className=&#39;fi fi-fr&#39;></span></li>
-                              <li>Germany <span className=&#39;fi fi-de&#39;></span></li>
-                              <li>Gibraltar <span className=&#39;fi fi-gi&#39;></span></li>
-                              <li>Greece <span className=&#39;fi fi-gr&#39;></span></li>
-                              <li>Italy <span className=&#39;fi fi-it&#39;></span></li>
-                              <li>Jordan <span className=&#39;fi fi-jo&#39;></span></li>
-                              <li>Malaysia <span className=&#39;fi fi-my&#39;></span></li>
-                              <li>Mexico <span className=&#39;fi fi-mx&#39;></span></li>
-                              <li>Montenegro <span className=&#39;fi fi-me&#39;></span></li>
-                              <li>Norway <span className=&#39;fi fi-no&#39;></span></li>
-                              <li>Portugal <span className=&#39;fi fi-pt&#39;></span></li>
-                              <li>Puerto Rico <span className=&#39;fi fi-pr&#39;></span></li>
-                              <li>Saint Lucia <span className=&#39;fi fi-lc&#39;></span></li>
-                              <li>Scotland <span className=&#39;fi fi-gb-sct&#39;></span></li>
-                              <li>Singapore <span className=&#39;fi fi-sg&#39;></span></li>
-                              <li>Slovenia <span className=&#39;fi fi-si&#39;></span></li>
-                              <li>Spain <span className=&#39;fi fi-es&#39;></span></li>
-                              <li>Thailand <span className=&#39;fi fi-th&#39;></span></li>
-                              <li>Turkey <span className=&#39;fi fi-tr&#39;></span></li>
-                              <li>United States <span className=&#39;fi fi-us&#39;></span></li>
-                              <li>Vatican City <span className=&#39;fi fi-va&#39;></span></li>
-                              <li>Vietnam <span className=&#39;fi fi-vn&#39;></span></li>
-                              <li>Virgin Islands (U.S.) <span className=&#39;fi fi-vi&#39;></span></li>
-                              <li>Wales <span className=&#39;fi fi-gb-wls&#39;></span></li>
+                              <li>Antigua and Barbuda <span class=&#39;fi fi-ag&#39;></span></li>
+                              <li>Aruba <span class=&#39;fi fi-aw&#39;></span></li>
+                              <li>Barbados <span class=&#39;fi fi-bb&#39;></span></li>
+                              <li>Bonaire <span class=&#39;fi fi-bq&#39;></span></li>
+                              <li>Cambodia <span class=&#39;fi fi-kh&#39;></span></li>
+                              <li>Croatia <span class=&#39;fi fi-hr&#39;></span></li>
+                              <li>Curacao <span class=&#39;fi fi-cw&#39;></span></li>
+                              <li>Cyprus <span class=&#39;fi fi-cy&#39;></span></li>
+                              <li>Egypt <span class=&#39;fi fi-eg&#39;></span></li>
+                              <li>England <span class=&#39;fi fi-gb-eng&#39;></span></li>
+                              <li>France <span class=&#39;fi fi-fr&#39;></span></li>
+                              <li>Germany <span class=&#39;fi fi-de&#39;></span></li>
+                              <li>Gibraltar <span class=&#39;fi fi-gi&#39;></span></li>
+                              <li>Greece <span class=&#39;fi fi-gr&#39;></span></li>
+                              <li>Ireland <span class=&#39;fi fi-ie&#39;></span></li>
+                              <li>Italy <span class=&#39;fi fi-it&#39;></span></li>
+                              <li>Jordan <span class=&#39;fi fi-jo&#39;></span></li>
+                              <li>Malaysia <span class=&#39;fi fi-my&#39;></span></li>
+                              <li>Mexico <span class=&#39;fi fi-mx&#39;></span></li>
+                              <li>Montenegro <span class=&#39;fi fi-me&#39;></span></li>
+                              <li>Northern Ireland <span class=&#39;fi fi-gb-nir&#39;></span></li>
+                              <li>Norway <span class=&#39;fi fi-no&#39;></span></li>
+                              <li>Portugal <span class=&#39;fi fi-pt&#39;></span></li>
+                              <li>Puerto Rico <span class=&#39;fi fi-pr&#39;></span></li>
+                              <li>Saint Lucia <span class=&#39;fi fi-lc&#39;></span></li>
+                              <li>Scotland <span class=&#39;fi fi-gb-sct&#39;></span></li>
+                              <li>Singapore <span class=&#39;fi fi-sg&#39;></span></li>
+                              <li>Slovenia <span class=&#39;fi fi-si&#39;></span></li>
+                              <li>Spain <span class=&#39;fi fi-es&#39;></span></li>
+                              <li>Thailand <span class=&#39;fi fi-th&#39;></span></li>
+                              <li>Turkey <span class=&#39;fi fi-tr&#39;></span></li>
+                              <li>United States <span class=&#39;fi fi-us&#39;></span></li>
+                              <li>Vatican City <span class=&#39;fi fi-va&#39;></span></li>
+                              <li>Vietnam <span class=&#39;fi fi-vn&#39;></span></li>
+                              <li>Virgin Islands (U.S.) <span class=&#39;fi fi-vi&#39;></span></li>
+                              <li>Wales <span class=&#39;fi fi-gb-wls&#39;></span></li>
                               </ol>
                               " data-bs-html="true">Visit 50 countries</a></label>
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
-                              <br/><br/>
-                              <div className=&#39;progress&#39;>
-                                  <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width:41%&#39; aria-valuenow=&#39;41&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>41%</div>
+                              <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>45/100 &ndash; 45%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:45%;transition:width 0.3s ease&#39;></div>
+                                </div>
                               </div>
-                              <br/>
                               <ol>
                                 <li>Barbados - Historic Bridgetown and its Garrison</li>
                                 <li>Croatia - <a href=&#39;assets/images/unesco/Croatia_Diocletians_Palace.JPG&#39; target=&#39;_blank&#39;>Historical Complex of Split with the Palace of Diocletian</a></li>
@@ -404,6 +463,7 @@ export default function Bucketlist() {
                                 <li>Greece - <a href=&#39;assets/images/unesco/Greece_Athens.JPG&#39; target=&#39;_blank&#39;>Acropolis, Athens</a></li>
                                 <li>Greece - <a href=&#39;assets/images/unesco/Greece_Rhodes.JPG&#39; target=&#39;_blank&#39;>Medieval City of Rhodes</a></li>
                                 <li>Greece - <a href=&#39;assets/images/unesco/Greece_Olympia.JPG&#39; target=&#39;_blank&#39;>Archaeological Site of Olympia</a></li>
+                                <li>Ireland - Brú na Bóinne</li>
                                 <li>Italy - <a href=&#39;assets/images/unesco/Italy_Rome.JPG&#39; target=&#39;_blank&#39;>Historic Centre of Rome</a></li>
                                 <li>Italy - <a href=&#39;assets/images/unesco/Italy_Venice.JPG&#39; target=&#39;_blank&#39;>Venice and its Lagoon</a></li>
                                 <li>Italy - Historic Centre of Naples</li>
@@ -413,9 +473,12 @@ export default function Bucketlist() {
                                 <li>Malaysia - <a href=&#39;assets/images/unesco/Malaysia_Melaka.JPG&#39; target=&#39;_blank&#39;>Melaka and George Town, Historic Cities of the Straits of Malacca</a></li>
                                 <li>Mexico - <a href=&#39;assets/images/unesco/Mexico_Chichen_Itza.JPG&#39; target=&#39;_blank&#39;>Pre-Hispanic City of Chichen-Itza</a></li>
                                 <li>Montenegro - Natural and Culturo-Historical Region of Kotor</li>
+                                <li>Northern Ireland - Giant's Causeway and Causeway Coast</li>
                                 <li>Norway - <a href=&#39;assets/images/unesco/Norway_Bergen.JPG&#39; target=&#39;_blank&#39;>Bryggen</a></li>
                                 <li>Norway - West Norwegian Fjords - Geirangerfjord and Nærøyfjord</li>
                                 <li>Saint Lucia - <a href=&#39;assets/images/unesco/StLucia_Pitons.JPG&#39; target=&#39;_blank&#39;>Pitons Management Area</a></li>
+                                <li>Spain - Tower of Hercules</li>
+                                <li>Spain - Vizcaya Bridge</li>
                                 <li>Turkey - <a href=&#39;assets/images/unesco/Turkey_Ephesus.JPG&#39; target=&#39;_blank&#39;>Ephesus</a></li>
                                 <li>United Kingdom - Blaenavon Industrial Landscape</li>
                                 <li>United Kingdom - Castles and Town Walls of King Edward in Gwynedd</li>
@@ -436,16 +499,27 @@ export default function Bucketlist() {
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
-                              <b>Aspiration</b>: 80%
-                              <br/><br/>
-                              <div className=&#39;progress&#39;>
-                                  <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>50%</div>
+                              <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>38/67 &ndash; 56%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:56%;transition:width 0.3s ease&#39;></div>
+                                </div>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
+                                    <span style=&#39;color:#6f42c1;font-weight:600&#39;>80%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%&#39;>
+                                    <div style=&#39;background:#6f42c1;border-radius:99px;height:6px;width:80%;transition:width 0.3s ease&#39;></div>
+                                </div>
                               </div>
                               *Largest visited settlement in each county will be displayed.
                               <br/><br/>
                               <ol>
-                                <li>Anglesey</li>
-                                <li>Antrim</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Anglesey - Holyhead</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Antrim - Belfast</li>
                                 <li>Armagh</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Bedfordshire - Bedford</li>
                                 <li>Berkshire</li>
@@ -479,7 +553,7 @@ export default function Bucketlist() {
                                 <li>Herefordshire</li>
                                 <li>Hertfordshire</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Isle of Wight</li>
-                                <li>Kent</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Kent - Dover</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Lancashire - Blackpool</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Leicestershire - Leicester</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Lincolnshire - Lincoln</li>
@@ -630,220 +704,98 @@ export default function Bucketlist() {
                         <h3 className="place">&#128204;Travel (Bucket List Experiences & Landmarks)</h3>
                     </div><br />
                     <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the vast Neolithic cairn of Barnenez</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the Locmariaquer megaliths, giants of prehistoric Europe</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Enter the ancient passage tomb of Newgrange</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the ceremonial landscape of Avebury</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand within the stone circle of Stonehenge</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the Neolithic village of Skara Brae</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the Ring of Brodgar</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand among the Stones of Stenness</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Visit the ruins of Ur, cradle of urban civilisation</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Visit Samarra, city of early Mesopotamian power</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Stand before the Step Pyramid of Djoser</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Stand before the Great Pyramids of Giza</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the pyramids of Dahshur, birthplace of true pyramid design</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Enter the Pyramid of Unas, inscribed with ancient texts</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the royal necropolis of Abusir</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Visit Abu Rawash, Egypt&#39;s most enigmatic pyramid site</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand beside the Unfinished Obelisk, frozen ancient engineering</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Walk the vast temple complex of Karnak</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Explore Luxor Temple</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the Ramesseum, temple of Ramesses II</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk through Deir el-Medina, village of the tomb builders</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Enter the tombs of the Valley of the Kings</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Stand before the Colossi of Memnon</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Visit Philae Temple, sacred to Isis</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand at Abydos, sacred city of Osiris</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore ancient Alexandria, city of knowledge and empire</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand before the colossal temples of Abu Simbel</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Enter the Lion Gate of Mycenae, heart of Bronze Age Greece</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore Hattusa, capital of the Hittite Empire</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the ceremonial terraces of Persepolis</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Visit Pasargadae, tomb of Cyrus the Great</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the Nubian pyramids of Meroë</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand atop Masada, overlooking the Judean Desert</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Float in the Dead Sea</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand on the Temple Mount, one of history&#39;s most sacred places</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Walk the colonnaded streets of Jerash</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the ruins of Carthage, rival of Rome</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the Roman streets of Volubilis</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand among the colossal temples of Baalbek</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Marvel at the Acropolis of Athens</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Walk the ruins of Ancient Corinth</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Stand at Olympia, birthplace of the Olympic Games</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand at Delphi, centre of the ancient world</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Sit within the theatre of Epidaurus, famed for perfect acoustics</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the sacred island of Delos, birthplace of Apollo</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the Sacred Way to Didyma, oracle of Apollo</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the acropolis of Pergamon, overlooking Anatolia</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand inside the Roman theatre of Aspendos</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Explore Ephesus, Rome&#39;s great city of Asia</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Explore the Colosseum, symbol of Imperial Rome</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the preserved streets of Herculaneum</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Explore the streets of Pompeii</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Walk through Diocletian&#39;s Palace</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the Valley of the Temples at Agrigento</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the streets of Leptis Magna, Rome&#39;s African jewel</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore Dougga, Tunisia&#39;s best-preserved Roman city</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand in the Hippodrome of Constantinople, heart of Byzantine life</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" checked="checked" /> Discover Petra, carved into rose-red stone</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the ruins of Palmyra, desert crossroads of antiquity</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore Hegra, Nabataean city carved into sandstone</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Climb Mount Nemrut, among gods and kings</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Wander the Silk Road ruins of Merv</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the ancient streets of Bukhara</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore Samarkand, jewel of the Silk Road</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Walk the Great Wall of China</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Stand before the Terracotta Army, guardians of China&#39;s first emperor</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Traverse the Maya ruins of Chichen Itza</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the monumental avenues of Teotihuacan</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the jungle-covered ruins of Tikal</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the palace and temples of Palenque</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the Puuc-style ruins of Uxmal</label>
-                    </div>
-                    <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> Explore the remote Maya city of Calakmul</label>
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                        <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                <span style=&#39;color:#0dcaf0;font-weight:600&#39;>18/66 &ndash; 27%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:27%;transition:width 0.3s ease&#39;></div>
+                            </div>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
+                                <span style=&#39;color:#6f42c1;font-weight:600&#39;>50%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%&#39;>
+                                <div style=&#39;background:#6f42c1;border-radius:99px;height:6px;width:50%;transition:width 0.3s ease&#39;></div>
+                            </div>
+                        </div>
+                        <br/>
+                        <ol>
+                        <li>Walk the vast Neolithic cairn of Barnenez</li>
+                        <li>Explore the Locmariaquer megaliths, giants of prehistoric Europe</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Enter the ancient passage tomb of Newgrange</li>
+                        <li>Walk the ceremonial landscape of Avebury</li>
+                        <li>Stand within the stone circle of Stonehenge</li>
+                        <li>Explore the Neolithic village of Skara Brae</li>
+                        <li>Walk the Ring of Brodgar</li>
+                        <li>Stand among the Stones of Stenness</li>
+                        <li>Visit the ruins of Ur, cradle of urban civilisation</li>
+                        <li>Visit Samarra, city of early Mesopotamian power</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Stand before the Step Pyramid of Djoser</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Stand before the Great Pyramids of Giza</li>
+                        <li>Explore the pyramids of Dahshur, birthplace of true pyramid design</li>
+                        <li>Enter the Pyramid of Unas, inscribed with ancient texts</li>
+                        <li>Explore the royal necropolis of Abusir</li>
+                        <li>Stand beside the Unfinished Obelisk, frozen ancient engineering</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Walk the vast temple complex of Karnak</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Explore Luxor Temple</li>
+                        <li>Explore the Ramesseum, temple of Ramesses II</li>
+                        <li>Walk through Deir el-Medina, village of the tomb builders</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Enter the tombs of the Valley of the Kings</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Stand before the Colossi of Memnon</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Visit Philae Temple, sacred to Isis</li>
+                        <li>Stand at Abydos, sacred city of Osiris</li>
+                        <li>Explore ancient Alexandria, city of knowledge and empire</li>
+                        <li>Stand before the colossal temples of Abu Simbel</li>
+                        <li>Enter the Lion Gate of Mycenae, heart of Bronze Age Greece</li>
+                        <li>Explore Hattusa, capital of the Hittite Empire</li>
+                        <li>Walk the ceremonial terraces of Persepolis</li>
+                        <li>Visit Pasargadae, tomb of Cyrus the Great</li>
+                        <li>Explore the Nubian pyramids of Meroë</li>
+                        <li>Stand atop Masada, overlooking the Judean Desert</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Float in the Dead Sea</li>
+                        <li>Stand on the Temple Mount, one of history&#39;s most sacred places</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Walk the colonnaded streets of Jerash</li>
+                        <li>Explore the ruins of Carthage, rival of Rome</li>
+                        <li>Walk the Roman streets of Volubilis</li>
+                        <li>Stand among the colossal temples of Baalbek</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Marvel at the Acropolis of Athens</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Walk the ruins of Ancient Corinth</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Stand at Olympia, birthplace of the Olympic Games</li>
+                        <li>Stand at Delphi, centre of the ancient world</li>
+                        <li>Sit within the theatre of Epidaurus, famed for perfect acoustics</li>
+                        <li>Walk the sacred island of Delos, birthplace of Apollo</li>
+                        <li>Walk the Sacred Way to Didyma, oracle of Apollo</li>
+                        <li>Walk the acropolis of Pergamon, overlooking Anatolia</li>
+                        <li>Stand inside the Roman theatre of Aspendos</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Explore Ephesus, Rome&#39;s great city of Asia</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Explore the Colosseum, symbol of Imperial Rome</li>
+                        <li>Walk the preserved streets of Herculaneum</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Explore the streets of Pompeii</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Walk through Diocletian&#39;s Palace</li>
+                        <li>Explore the Valley of the Temples at Agrigento</li>
+                        <li>Walk the streets of Leptis Magna, Rome&#39;s African jewel</li>
+                        <li>Explore Timgad, Rome&#39;s perfectly planned colonial city in Algeria</li>
+                        <li>Explore Dougga, Tunisia&#39;s best-preserved Roman city</li>
+                        <li>Stand in the Hippodrome of Constantinople, heart of Byzantine life</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Discover Petra, carved into rose-red stone</li>
+                        <li>Walk the ruins of Palmyra, desert crossroads of antiquity</li>
+                        <li>Explore Hegra, Nabataean city carved into sandstone</li>
+                        <li>Climb Mount Nemrut, among gods and kings</li>
+                        <li>Walk the ancient streets of Bukhara</li>
+                        <li>Explore Samarkand, jewel of the Silk Road</li>
+                        <li>Walk the Great Wall of China</li>
+                        <li>Stand before the Terracotta Army, guardians of China&#39;s first emperor</li>
+                        <li>Traverse the Maya ruins of Chichen Itza</li>
+                        <li>Explore the monumental avenues of Teotihuacan</li>
+                        <li>Explore the jungle-covered ruins of Tikal</li>
+                        <li>Explore the palace and temples of Palenque</li>
+                        <li>Explore the Puuc-style ruins of Uxmal</li>
+                        <li>Explore the remote Maya city of Calakmul</li>
+                        </ol>
+                        " data-bs-html="true">Explore the Ancient World</a></label>
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
@@ -1102,7 +1054,7 @@ export default function Bucketlist() {
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> Hit a 180 in darts</label>
                     </div>
-                    
+
                 </div>
 
             </div>
