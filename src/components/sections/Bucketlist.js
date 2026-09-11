@@ -67,6 +67,7 @@ export default function Bucketlist() {
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
                           * At least ten must be considered the greatest of all time. [<a href=&#39;https://thegreatestbooks.org/&#39; target=&#39;_blank&#39;>1</a>]<br />
+                          <br/>
                           <ol>
                           <li><a href=&#39;https://isbnsearch.org/isbn/9780794851408&#39; target=&#39;_blank&#39;>100 Greatest Ancient Coins</a> by Harlen Berk (2024)</li>
                           <li><a href=&#39;https://isbnsearch.org/isbn/9781782438564&#39; target=&#39;_blank&#39;>24 Hours in Ancient Rome</a> by Philip Matyszak (2017)</li>
@@ -93,6 +94,7 @@ export default function Bucketlist() {
                           <li><a href=&#39;https://isbnsearch.org/isbn/9781841193977&#39; target=&#39;_blank&#39;>Jack the Ripper</a> by Philip Sugden (1994)</li>
                           <li><a href=&#39;https://isbnsearch.org/isbn/9780143109679&#39; target=&#39;_blank&#39;>Let My People Go Surfing</a> by Yvon Chouinard (2016)</li>  
                           <li><a href=&#39;https://isbnsearch.org/isbn/9780718156190&#39; target=&#39;_blank&#39;>The Life of Lee</a> by Lee Evans (2011)</li>
+                          <li><a href=&#39;https://isbnsearch.org/isbn/9780300197136&#39; target=&#39;_blank&#39;>A Little History of Science</a> by William Bynum (2013)</li>
                           <li><a href=&#39;https://isbnsearch.org/isbn/9780140455168&#39; target=&#39;_blank&#39;>Lives of the Twelve Caesars</a> by Suetonius (121)</li>
                           <li><a href=&#39;https://isbnsearch.org/isbn/9781409144960&#39; target=&#39;_blank&#39;>Love as Always, Mum xxx</a> by Mae West (2018)</li>
                           <li><a href=&#39;https://isbnsearch.org/isbn/9781578987856&#39; target=&#39;_blank&#39;>The Metamorphosis</a>* by Franz Kafka (1915)</li>
@@ -384,17 +386,34 @@ export default function Bucketlist() {
                         <h3 className="place">&#127757;Travel (Countries & Regions)</h3>
                     </div><br />
                     <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="Africa, Asia, Europe, North America" data-bs-html="true">Set foot on all 7 continents</a></label>
+                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
+                                <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>4/7 &ndash; 72%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:72%;transition:width 0.3s ease&#39;></div>
+                                </div>
+                              </div>
+                              <ol>
+                                <li>Africa</li>
+                                <li>Asia</li>
+                                <li>Europe</li>
+                                <li>North America</li>
+                              </ol>
+                              " data-bs-html="true">Set foot on all 7 continents</a></label>
+                                
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                               <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
                                 <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
                                     <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
-                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>36/50 &ndash; 72%</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>36/50 &ndash; 57%</span>
                                 </div>
                                 <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
-                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:72%;transition:width 0.3s ease&#39;></div>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:57%;transition:width 0.3s ease&#39;></div>
                                 </div>
                               </div>
                               <ol>
@@ -495,17 +514,17 @@ export default function Bucketlist() {
                                 <li>United States of America - Hawaii Volcanoes National Park</li>
                                 <li>Vatican City - Vatican City State</li>
                               </ol>
-                              " data-bs-html="true">Visit 100 UNESCO World Heritage Sites</a></label>
+                              " data-bs-html="true">Experience 100 UNESCO World Heritage Sites</a></label>
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
                               <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
                                 <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
                                     <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
-                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>38/67 &ndash; 56%</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>44/100 &ndash; 44%</span>
                                 </div>
                                 <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
-                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:56%;transition:width 0.3s ease&#39;></div>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:44%;transition:width 0.3s ease&#39;></div>
                                 </div>
                                 <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
                                     <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
@@ -518,163 +537,216 @@ export default function Bucketlist() {
                               *Largest visited settlement in each county will be displayed.
                               <br/><br/>
                               <ol>
-                                <li style=&#39;text-decoration: line-through;&#39;>Anglesey - Holyhead</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Antrim - Belfast</li>
+                                <li>Aberdeenshire</li>
+                                <li style='text-decoration: line-through;'>Anglesey - Holyhead</li>
+                                <li>Angus</li>
+                                <li style='text-decoration: line-through;'>Antrim - Belfast</li>
+                                <li style='text-decoration: line-through;'>Argyll - Glen Coe</li>
                                 <li>Armagh</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Bedfordshire - Bedford</li>
+                                <li>Ayrshire</li>
+                                <li>Banffshire</li>
+                                <li style='text-decoration: line-through;'>Bedfordshire - Bedford</li>
                                 <li>Berkshire</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Brecknockshire - Brecon</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Bristol - Bristol</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Buckinghamshire - Milton Keynes</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Caernarvonshire - Caernarvon</li>
+                                <li>Berwickshire</li>
+                                <li style='text-decoration: line-through;'>Brecknockshire - Brecon</li>
+                                <li style='text-decoration: line-through;'>Bristol - Bristol</li>
+                                <li style='text-decoration: line-through;'>Buckinghamshire - Milton Keynes</li>
+                                <li>Bute</li>
+                                <li style='text-decoration: line-through;'>Caernarvonshire - Caernarvon</li>
+                                <li>Caithness</li>
                                 <li>Cambridgeshire</li>
                                 <li>Cardiganshire</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Carmarthenshire - Carmarthen</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Cheshire - Chester</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>City of London</li>
+                                <li style='text-decoration: line-through;'>Carmarthenshire - Carmarthen</li>
+                                <li style='text-decoration: line-through;'>Cheshire - Chester</li>
+                                <li style='text-decoration: line-through;'>City of London</li>
+                                <li>Clackmannanshire</li>
                                 <li>Cornwall</li>
                                 <li>Cumbria</li>
                                 <li>Denbighshire</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Derbyshire - Derby</li>
+                                <li style='text-decoration: line-through;'>Derbyshire - Derby</li>
                                 <li>Devon</li>
                                 <li>Dorset</li>
                                 <li>Down</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Durham - Durham</li>
-                                <li>East Sussex</li>
+                                <li>Dumfriesshire</li>
+                                <li>Dunbartonshire</li>
+                                <li style='text-decoration: line-through;'>Durham - Durham</li>
+                                <li>East Lothian</li>
                                 <li>East Riding of Yorkshire</li>
+                                <li>East Sussex</li>
                                 <li>Essex</li>
                                 <li>Fermanagh</li>
+                                <li>Fife</li>
                                 <li>Flintshire</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Glamorgan - Cardiff</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Gloucestershire - Cheltenham</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Greater London</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Greater Manchester - Manchester</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Hampshire - Southampton</li>
+                                <li style='text-decoration: line-through;'>Glamorgan - Cardiff</li>
+                                <li style='text-decoration: line-through;'>Gloucestershire - Cheltenham</li>
+                                <li style='text-decoration: line-through;'>Greater London</li>
+                                <li style='text-decoration: line-through;'>Greater Manchester - Manchester</li>
+                                <li style='text-decoration: line-through;'>Hampshire - Southampton</li>
                                 <li>Herefordshire</li>
                                 <li>Hertfordshire</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Isle of Wight</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Kent - Dover</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Lancashire - Blackpool</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Leicestershire - Leicester</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Lincolnshire - Lincoln</li>
+                                <li style='text-decoration: line-through;'>Inverness-shire - Fort William</li>
+                                <li style='text-decoration: line-through;'>Isle of Wight</li>
+                                <li style='text-decoration: line-through;'>Kent - Dover</li>
+                                <li>Kincardineshire</li>
+                                <li>Kinross-shire</li>
+                                <li>Kirkcudbrightshire</li>
+                                <li style='text-decoration: line-through;'>Lanarkshire - Glasgow</li>
+                                <li style='text-decoration: line-through;'>Lancashire - Blackpool</li>
+                                <li style='text-decoration: line-through;'>Leicestershire - Leicester</li>
+                                <li style='text-decoration: line-through;'>Lincolnshire - Lincoln</li>
                                 <li>Londonderry</li>
                                 <li>Merionethshire</li>
                                 <li>Merseyside</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Monmouthshire - Abergavenny</li>
+                                <li style='text-decoration: line-through;'>Midlothian - Edinburgh</li>
+                                <li style='text-decoration: line-through;'>Monmouthshire - Abergavenny</li>
                                 <li>Montgomeryshire</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Norfolk - Great Yarmouth</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>North Yorkshire - York</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Northamptonshire - Northampton</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Northumberland - Hexham</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Nottinghamshire - Nottingham</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Oxfordshire - Oxford</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Pembrokeshire - Tenby</li>
+                                <li>Moray</li>
+                                <li>Nairnshire</li>
+                                <li style='text-decoration: line-through;'>Norfolk - Great Yarmouth</li>
+                                <li style='text-decoration: line-through;'>North Yorkshire - York</li>
+                                <li style='text-decoration: line-through;'>Northamptonshire - Northampton</li>
+                                <li style='text-decoration: line-through;'>Northumberland - Hexham</li>
+                                <li style='text-decoration: line-through;'>Nottinghamshire - Nottingham</li>
+                                <li>Orkney</li>
+                                <li style='text-decoration: line-through;'>Oxfordshire - Oxford</li>
+                                <li>Peeblesshire</li>
+                                <li style='text-decoration: line-through;'>Pembrokeshire - Tenby</li>
+                                <li>Perthshire</li>
                                 <li>Radnorshire</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Rutland - Oakham</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Shropshire - Telford</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Somerset - Bath</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>South Yorkshire - Sheffield</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Staffordshire - Stoke-on-Trent</li>
+                                <li>Renfrewshire</li>
+                                <li>Ross and Cromarty</li>
+                                <li style='text-decoration: line-through;'>Roxburghshire - Hawick</li>
+                                <li style='text-decoration: line-through;'>Rutland - Oakham</li>
+                                <li>Selkirkshire</li>
+                                <li>Shetland</li>
+                                <li style='text-decoration: line-through;'>Shropshire - Telford</li>
+                                <li style='text-decoration: line-through;'>Somerset - Bath</li>
+                                <li style='text-decoration: line-through;'>South Yorkshire - Sheffield</li>
+                                <li style='text-decoration: line-through;'>Staffordshire - Stoke-on-Trent</li>
+                                <li style='text-decoration: line-through;'>Stirlingshire - Rowardennan</li>
                                 <li>Suffolk</li>
                                 <li>Surrey</li>
+                                <li>Sutherland</li>
                                 <li>Tyne and Wear</li>
                                 <li>Tyrone</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Warwickshire - Nuneaton</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>West Midlands - Birmingham</li>
+                                <li style='text-decoration: line-through;'>Warwickshire - Nuneaton</li>
+                                <li>West Lothian</li>
+                                <li style='text-decoration: line-through;'>West Midlands - Birmingham</li>
                                 <li>West Sussex</li>
                                 <li>West Yorkshire</li>
+                                <li>Wigtownshire</li>
                                 <li>Wiltshire</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Worcestershire - Malvern</li>
+                                <li style='text-decoration: line-through;'>Worcestershire - Malvern</li>
                               </ol>
-                              " data-bs-html="true">Visit counties in the United Kingdom</a></label>
+                              " data-bs-html="true">Discover counties in the United Kingdom</a></label>
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
-                              <b>Aspiration</b>: 80%
-                              <br/><br/>
-                              <div className=&#39;progress&#39;>
-                                  <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>50%</div>
+                              <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>50/100 &ndash; 50%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:50%;transition:width 0.3s ease&#39;></div>
+                                </div>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
+                                    <span style=&#39;color:#6f42c1;font-weight:600&#39;>80%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%&#39;>
+                                    <div style=&#39;background:#6f42c1;border-radius:99px;height:6px;width:80%;transition:width 0.3s ease&#39;></div>
+                                </div>
                               </div>
                               <br/>
                               <ol>
                                 <li>Albert Dock</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Angel of the North</li>
-                                <li>Antrim Coast and Glens</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Antrim Coast and Glens</li>
                                 <li>Avebury</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Bamburgh Castle</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>City of Bath</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Blackpool Tower</li>
                                 <li>Blenheim Palace</li>
                                 <li>Bletchley Park</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Brecon Beacons</li>
-                                <li>Brighton Pier</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>British Museum</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Buckingham Palace</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Caernarvon Castle</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Caernarfon Castle</li>
                                 <li>Cairngorms National Park</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Caldey Island</li>
                                 <li>University of Cambridge</li>
                                 <li>Canterbury Cathedral</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Channel Islands</li>
+                                <li>Channel Islands</li>
+                                <li>Chatsworth House</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Cheddar Gorge</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Chester Rows</li>
                                 <li>Clifton Suspension Bridge</li>
+                                <li>Conwy Castle & Walled Town</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>The Cotswolds</li>
                                 <li>Dartmoor National Park</li>
                                 <li>Dover Castle</li>
-                                <li>Durdle Door</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Durham Cathedral</li>
                                 <li>Eden Project</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Edinburgh Castle</li>
                                 <li>Ely Cathedral</li>
                                 <li>Exmoor National Park</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Eryri National Park</li>
+                                <li>Ffestiniog Railway</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Forth Bridge</li>
-                                <li>Geevor Tin Mine</li>
-                                <li>Giant&#39;s Causeway</li>
+                                <li>Fountains Abbey & Studley Royal</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Giant&#39;s Causeway</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Glastonbury Tor</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Glen Coe</li>
-                                <li>Globe Theatre</li>
-                                <li>Great Orme Copper Mine</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Hadrian&#39;s Wall</li>
-                                <li>HMS Victory</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Heathrow Airport</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Houses of Parliament</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Hyde Park</li>
-                                <li>Inner Hebrides</li>
+                                <li>Inner Hebrides (Iona & Staffa)</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Ironbridge Gorge</li>
                                 <li>Isle of Man</li>
                                 <li>Isles of Scilly</li>
                                 <li>John O&#39;Groats</li>
+                                <li>Jurassic Coast</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Kensington Palace</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Lake District</li>
                                 <li>Land&#39;s End</li>
                                 <li>Leeds Castle</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Lincoln Cathedral</li>
                                 <li>Holy Island of Lindisfarne</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Loch Lomond</li>
-                                <li>Loch Ness</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Loch Lomond & The Trossachs</li>
+                                <li>Loch Ness & Urquhart Castle</li>
+                                <li>Londonderry City Walls</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>London Eye</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Malvern Hills</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Monument to the Great Fire of London</li>
+                                <li>The Mourne Mountains</li>
                                 <li>The Needles</li>
                                 <li>Neolithic Orkney</li>
                                 <li>North York Moors</li>
                                 <li>Norwich Cathedral</li>
-                                <li>Outer Hebrides</li>
+                                <li>Outer Hebrides (Lewis & Harris)</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>University of Oxford</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Peak District</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Pembrokeshire Coast</li>
                                 <li>Pontcysyllte Aqueduct</li>
+                                <li>Portsmouth Historic Dockyard</li>
                                 <li>Prehistoric Shetland</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>The Roman Baths</li>
                                 <li>Royal Albert Hall</li>
                                 <li>Royal Botanic Gardens, Kew</li>
                                 <li>Royal Museums Greenwich</li>
                                 <li>Salisbury Cathedral</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Shakespeare&#39;s Birthplace</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>The Shambles & Historic York</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Sherwood Forest</li>
-                                <li style=&#39;text-decoration: line-through;&#39;>Snowdonia</li>
+                                <li>The Isle of Skye</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>SS Great Britain</li>
+                                <li>St Andrews</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Stratford-upon-Avon</li>
+                                <li>Stirling Castle</li>
                                 <li>Stonehenge</li>
                                 <li>St Micheal&#39;s Mount</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>St Paul&#39;s Cathedral</li>
+                                <li style=&#39;text-decoration: line-through;&#39;>Titanic Belfast</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Tower Bridge</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Tower of London</li>
                                 <li style=&#39;text-decoration: line-through;&#39;>Trafalgar Square</li>
@@ -688,14 +760,8 @@ export default function Bucketlist() {
                                 <li>White Cliffs of Dover</li>
                                 <li>Winchester Cathedral</li>
                                 <li>Windsor Castle</li>
-                                <li></li>
-  
-                                <li>More to come.. Suggestions below</li>
-                                <li></li>
-                                <li>Monument to the Great Fire of London</li>
-                                <li>Ffestiniog Railway</li>
                               </ol>
-                              " data-bs-html="true">Visit must see places in the United Kingdom</a></label>
+                              " data-bs-html="true">Explore the best of the United Kingdom</a></label>
                     </div>
                 </div>
 
@@ -799,28 +865,42 @@ export default function Bucketlist() {
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
-                          <b>Aspiration</b>: 3
-                          <br/><br/>
-                          <div className=&#39;progress&#39;>
-                              <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 100%&#39; aria-valuenow=&#39;100&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>100%</div>
+                          <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                <span style=&#39;color:#0dcaf0;font-weight:600&#39;>3 &ndash; 100%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:100%;transition:width 0.3s ease&#39;></div>
+                            </div>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
+                                <span style=&#39;color:#6f42c1;font-weight:600&#39;>3</span>
+                            </div>
                           </div>
-                          <br/>
                           <ol>
                             <li>Chichen Itza</li>
                             <li>Colosseum</li>
                             <li>Petra</li>
-                          </ol><br/>
+                          </ol>
                           Great Pyramid of Giza (Honorary)" data-bs-html="true">Visit Wonders of the World</a></label>
                     </div>
                     <div className="extension">
                         <div className="checkbox">
                             <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
-                            <b>Aspiration</b>: 3
-                            <br/><br/>
-                            <div className=&#39;progress&#39;>
-                                <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 100%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>100%</div>
+                            <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                    <span style=&#39;color:#0dcaf0;font-weight:600&#39;>4 &ndash; 100%</span>
+                                </div>
+                                <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                    <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:100%;transition:width 0.3s ease&#39;></div>
+                                </div>
+                                <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                    <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
+                                    <span style=&#39;color:#6f42c1;font-weight:600&#39;>3</span>
+                                </div>
                             </div>
-                            <br/>
                             <ol>
                                 <li>Colossus of Rhodes</li>
                                 <li>Great Pyramid of Giza</li>
@@ -832,12 +912,19 @@ export default function Bucketlist() {
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
-                          <b>Aspiration</b>: 5
-                          <br/><br/>
-                          <div className=&#39;progress&#39;>
-                              <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 80%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>80%</div>
+                          <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                <span style=&#39;color:#0dcaf0;font-weight:600&#39;>4 &ndash; 80%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:80%;transition:width 0.3s ease&#39;></div>
+                            </div>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
+                                <span style=&#39;color:#6f42c1;font-weight:600&#39;>5</span>
+                            </div>
                           </div>
-                          <br/>
                           <ol>
                             <li>Lincoln Cathedral (1300-1549)</li>
                             <li>Chrysler Building (1930-1931)</li>
@@ -866,12 +953,19 @@ export default function Bucketlist() {
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
-                          <b>Aspiration</b>: 3
-                          <br/><br/>
-                          <div className=&#39;progress&#39;>
-                              <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 33%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>33%</div>
+                          <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                <span style=&#39;color:#0dcaf0;font-weight:600&#39;>1/3 &ndash; 33%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:33%;transition:width 0.3s ease&#39;></div>
+                            </div>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
+                                <span style=&#39;color:#6f42c1;font-weight:600&#39;>3</span>
+                            </div>
                           </div>
-                          <br/>
                           <ol>
                             <li>Eagle</li>
                           </ol>
