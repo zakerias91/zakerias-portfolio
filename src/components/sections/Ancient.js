@@ -8,7 +8,8 @@ const countryColors = {
     Turkey: { bg: "#EDE9FE", text: "#5B21B6" },
     Croatia: { bg: "#FFE4E6", text: "#9F1239" },
     Jordan: { bg: "#FFEDD5", text: "#9A3412" },
-    Spain: { bg: "#FEF08A", text: "#854D0E" }
+    Spain: { bg: "#FEF08A", text: "#854D0E" },
+    Ireland: { bg: "#DCFCE7", text: "#166534" }
 };
 
 export default function Ancient() {
@@ -23,7 +24,7 @@ export default function Ancient() {
                         Ancient Sites of the World
                     </h1>
                     <p style={{ fontSize: "15px", color: "#6b7280", margin: 0 }}>
-                        31 ancient sites, visited and ranked
+                        34 ancient sites, visited and ranked
                     </p>
                 </div>
 

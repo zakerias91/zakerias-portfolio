@@ -66,6 +66,15 @@ export default function Bucketlist() {
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
+                          <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                <span style=&#39;color:#0dcaf0;font-weight:600&#39;>46/100 &ndash; 46%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:46%;transition:width 0.3s ease&#39;></div>
+                            </div>
+                          </div>
                           * At least ten must be considered the greatest of all time. [<a href=&#39;https://thegreatestbooks.org/&#39; target=&#39;_blank&#39;>1</a>]<br />
                           <br/>
                           <ol>
@@ -387,7 +396,7 @@ export default function Bucketlist() {
                     </div><br />
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-content="
-                                <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                              <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
                                 <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
                                     <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
                                     <span style=&#39;color:#0dcaf0;font-weight:600&#39;>4/7 &ndash; 72%</span>
@@ -774,10 +783,10 @@ export default function Bucketlist() {
                         <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
                             <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
                                 <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
-                                <span style=&#39;color:#0dcaf0;font-weight:600&#39;>18/66 &ndash; 27%</span>
+                                <span style=&#39;color:#0dcaf0;font-weight:600&#39;>17/71 &ndash; 23%</span>
                             </div>
                             <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
-                                <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:27%;transition:width 0.3s ease&#39;></div>
+                                <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:23%;transition:width 0.3s ease&#39;></div>
                             </div>
                             <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
                                 <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
@@ -790,43 +799,32 @@ export default function Bucketlist() {
                         <br/>
                         <ol>
                         <li>Walk the vast Neolithic cairn of Barnenez</li>
+                        <li>Explore the megalithic landscape of Carnac</li>
                         <li>Explore the Locmariaquer megaliths, giants of prehistoric Europe</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Enter the ancient passage tomb of Newgrange</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Explore the Boyne Valley, home to Newgrange, Knowth and Dowth</li>
                         <li>Walk the ceremonial landscape of Avebury</li>
                         <li>Stand within the stone circle of Stonehenge</li>
                         <li>Explore the Neolithic village of Skara Brae</li>
                         <li>Walk the Ring of Brodgar</li>
                         <li>Stand among the Stones of Stenness</li>
+                        <li>Stand among the monumental stones of Göbekli Tepe</li>
+                        <li>Explore the Neolithic settlement of Çatalhöyük</li>
                         <li>Visit the ruins of Ur, cradle of urban civilisation</li>
-                        <li>Visit Samarra, city of early Mesopotamian power</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Stand before the Step Pyramid of Djoser</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Stand before the Great Pyramids of Giza</li>
-                        <li>Explore the pyramids of Dahshur, birthplace of true pyramid design</li>
-                        <li>Enter the Pyramid of Unas, inscribed with ancient texts</li>
+                        <li>Explore Hattusa, capital of the Hittite Empire</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Explore Saqqara, the great necropolis of Memphis</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Explore the Giza Plateau, home of the Great Pyramids</li>
+                        <li>Explore Dahshur, birthplace of true pyramid design</li>
                         <li>Explore the royal necropolis of Abusir</li>
                         <li>Stand beside the Unfinished Obelisk, frozen ancient engineering</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Walk the vast temple complex of Karnak</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Explore Luxor Temple</li>
-                        <li>Explore the Ramesseum, temple of Ramesses II</li>
-                        <li>Walk through Deir el-Medina, village of the tomb builders</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Walk the temples of Luxor and Karnak</li>
+                        <li>Explore the Ramesseum and Deir el-Medina, village of the tomb builders</li>
                         <li style=&#39;text-decoration: line-through;&#39;>Enter the tombs of the Valley of the Kings</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Stand before the Colossi of Memnon</li>
                         <li style=&#39;text-decoration: line-through;&#39;>Visit Philae Temple, sacred to Isis</li>
                         <li>Stand at Abydos, sacred city of Osiris</li>
-                        <li>Explore ancient Alexandria, city of knowledge and empire</li>
                         <li>Stand before the colossal temples of Abu Simbel</li>
-                        <li>Enter the Lion Gate of Mycenae, heart of Bronze Age Greece</li>
-                        <li>Explore Hattusa, capital of the Hittite Empire</li>
-                        <li>Walk the ceremonial terraces of Persepolis</li>
-                        <li>Visit Pasargadae, tomb of Cyrus the Great</li>
                         <li>Explore the Nubian pyramids of Meroë</li>
-                        <li>Stand atop Masada, overlooking the Judean Desert</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Float in the Dead Sea</li>
-                        <li>Stand on the Temple Mount, one of history&#39;s most sacred places</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Walk the colonnaded streets of Jerash</li>
-                        <li>Explore the ruins of Carthage, rival of Rome</li>
-                        <li>Walk the Roman streets of Volubilis</li>
-                        <li>Stand among the colossal temples of Baalbek</li>
+                        <li>Enter the Lion Gate of Mycenae, heart of Bronze Age Greece</li>
+                        <li>Stand at Troy, city of legend and archaeology</li>
                         <li style=&#39;text-decoration: line-through;&#39;>Marvel at the Acropolis of Athens</li>
                         <li style=&#39;text-decoration: line-through;&#39;>Walk the ruins of Ancient Corinth</li>
                         <li style=&#39;text-decoration: line-through;&#39;>Stand at Olympia, birthplace of the Olympic Games</li>
@@ -836,30 +834,41 @@ export default function Bucketlist() {
                         <li>Walk the Sacred Way to Didyma, oracle of Apollo</li>
                         <li>Walk the acropolis of Pergamon, overlooking Anatolia</li>
                         <li>Stand inside the Roman theatre of Aspendos</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Explore Ephesus, Rome&#39;s great city of Asia</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Explore the Colosseum, symbol of Imperial Rome</li>
-                        <li>Walk the preserved streets of Herculaneum</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Explore the streets of Pompeii</li>
+                        <li>Walk the ceremonial terraces of Persepolis</li>
+                        <li>Visit Pasargadae, tomb of Cyrus the Great</li>
+                        <li>Stand before the great ziggurat of Tchogha Zanbil</li>
+                        <li>Explore Hatra, the great fortified city of the Parthians</li>
+                        <li>Stand among the colossal temples of Baalbek</li>
+                        <li>Stand atop Masada, overlooking the Judean Desert</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Discover Petra, carved into rose-red stone</li>
+                        <li>Explore Hegra, Nabataean city carved into sandstone</li>
+                        <li>Climb Mount Nemrut, among gods and kings</li>
+                        <li>Walk the ruins of Palmyra, desert crossroads of antiquity</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Walk Hadrian's Wall, frontier of the Roman Empire</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Explore Rome, capital of the ancient Mediterranean world</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Explore Pompeii and Herculaneum, cities preserved by Vesuvius</li>
                         <li style=&#39;text-decoration: line-through;&#39;>Walk through Diocletian&#39;s Palace</li>
                         <li>Explore the Valley of the Temples at Agrigento</li>
                         <li>Walk the streets of Leptis Magna, Rome&#39;s African jewel</li>
                         <li>Explore Timgad, Rome&#39;s perfectly planned colonial city in Algeria</li>
                         <li>Explore Dougga, Tunisia&#39;s best-preserved Roman city</li>
-                        <li>Stand in the Hippodrome of Constantinople, heart of Byzantine life</li>
-                        <li style=&#39;text-decoration: line-through;&#39;>Discover Petra, carved into rose-red stone</li>
-                        <li>Walk the ruins of Palmyra, desert crossroads of antiquity</li>
-                        <li>Explore Hegra, Nabataean city carved into sandstone</li>
-                        <li>Climb Mount Nemrut, among gods and kings</li>
-                        <li>Walk the ancient streets of Bukhara</li>
-                        <li>Explore Samarkand, jewel of the Silk Road</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Walk the colonnaded streets of Jerash</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Explore Ephesus, Rome&#39;s great city of Asia</li>
+                        <li>Explore the ruins of Carthage, rival of Rome</li>
+                        <li>Explore Volubilis, Roman city of Mauretania</li>
+                        <li>Explore Jerusalem, one of the world's great sacred cities</li>
+                        <li>Explore Istanbul, crossroads of Roman and Byzantine civilisation</li>
+                        <li>Explore Mexico City, built upon the ruins of Tenochtitlan</li>
                         <li>Walk the Great Wall of China</li>
                         <li>Stand before the Terracotta Army, guardians of China&#39;s first emperor</li>
-                        <li>Traverse the Maya ruins of Chichen Itza</li>
                         <li>Explore the monumental avenues of Teotihuacan</li>
+                        <li>Explore Monte Albán, mountain capital of the Zapotecs</li>
                         <li>Explore the jungle-covered ruins of Tikal</li>
                         <li>Explore the palace and temples of Palenque</li>
                         <li>Explore the Puuc-style ruins of Uxmal</li>
                         <li>Explore the remote Maya city of Calakmul</li>
+                        <li style=&#39;text-decoration: line-through;&#39;>Traverse Chichen Itza, great city of the Maya</li>
+                        <li>Explore Tiwanaku, centre of a great Andean civilisation</li>
                         </ol>
                         " data-bs-html="true">Explore the Ancient World</a></label>
                     </div>
@@ -1038,7 +1047,17 @@ export default function Bucketlist() {
                     </div><br />
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
-                          * At least ten must be considered the greatest of all time. [<a href=&#39;https://www.imdb.com/chart/top/&#39; target=&#39;_blank&#39;>1</a>]<br />
+                          <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                <span style=&#39;color:#0dcaf0;font-weight:600&#39;>100/100 &ndash; 100%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:100%;transition:width 0.3s ease&#39;></div>
+                            </div>
+                          </div>
+                          * At least twenty must be considered the greatest of all time. [<a href=&#39;https://www.imdb.com/chart/top/&#39; target=&#39;_blank&#39;>1</a>]<br />
+                          <br/>
                           <ol>
                           <li>12 Angry Men (1957)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
                           <li>1917 (2019)* <i className=&#39;fa fa-thumbs-o-up&#39;></i></li>
@@ -1101,10 +1120,21 @@ export default function Bucketlist() {
                     </div>
                     <div className="checkbox">
                         <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
-                          Aim to complete at least half of the main titles to fully appreciate the franchise.
-                          <br/><br/>
-                          <div className=&#39;progress&#39;>
-                              <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;32&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>32%</div>
+                          <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                <span style=&#39;color:#0dcaf0;font-weight:600&#39;>8/21 &ndash; 38%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:38%;transition:width 0.3s ease&#39;></div>
+                            </div>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
+                                <span style=&#39;color:#6f42c1;font-weight:600&#39;>50%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%&#39;>
+                                <div style=&#39;background:#6f42c1;border-radius:99px;height:6px;width:50%;transition:width 0.3s ease&#39;></div>
+                            </div>
                           </div>
                           <br/>
                           <ol>
@@ -1120,11 +1150,22 @@ export default function Bucketlist() {
                           " data-bs-html="true">Explore the Legend of Zelda series</a></label>
                     </div>
                     <div className="checkbox">
-                        <label><input type="checkbox" disabled="disabled" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
-                          Aim to complete at least half of the main titles to fully appreciate the franchise.
-                          <br/><br/>
-                          <div className=&#39;progress&#39;>
-                              <div className=&#39;progress-bar bg-info&#39; role=&#39;progressbar&#39; style=&#39;width: 50%&#39; aria-valuenow=&#39;50&#39; aria-valuemin=&#39;0&#39; aria-valuemax=&#39;100&#39;>50%</div>
+                        <label><input type="checkbox" disabled="disabled" checked="checked" /> <a className="checkbox" tabIndex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-offset="0,10%" data-bs-custom-classname="popover-wide" data-bs-content="
+                          <div style=&#39;font-family:system-ui,sans-serif;padding:4px 0 12px&#39;>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Progress</span>
+                                <span style=&#39;color:#0dcaf0;font-weight:600&#39;>14/22 &ndash; 63%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%;margin-bottom:10px&#39;>
+                                <div style=&#39;background:#0dcaf0;border-radius:99px;height:6px;width:63%;transition:width 0.3s ease&#39;></div>
+                            </div>
+                            <div style=&#39;display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px&#39;>
+                                <span style=&#39;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:0.05em&#39;>Aspiration</span>
+                                <span style=&#39;color:#6f42c1;font-weight:600&#39;>50%</span>
+                            </div>
+                            <div style=&#39;background:#e9ecef;border-radius:99px;height:6px;width:100%&#39;>
+                                <div style=&#39;background:#6f42c1;border-radius:99px;height:6px;width:50%;transition:width 0.3s ease&#39;></div>
+                            </div>
                           </div>
                           <br/>
                           <ol>
