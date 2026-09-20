@@ -211,9 +211,10 @@ html {
   }
 }
 
-.popover-wide {
-  max-width: 500px; /* or 400px, 500px, etc */
-  width: 500px;     /* optional */
+.popover.bs-popover-auto .popover-body {
+  max-height: 50vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .extension label {
@@ -222,5 +223,12 @@ html {
 }
 
 .popover-body {
-    padding: 0.5rem 1rem;
+  min-width: 250px;
+  max-width: 500px;
+  width: max-content;
+}
+
+/* override bootstrap popover max-width */
+.popover {
+  max-width: none;
 }

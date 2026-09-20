@@ -165,6 +165,17 @@ const sites = [
             "More than anywhere else in Rome, the Forum feels like the real thing. You are walking the same roads the ancient Romans walked, through a site that evolved organically over a thousand years. It is large, rarely as crowded as you might expect, and easy to underestimate without the right guide to bring it to life.",
     },
     {
+        name: "Knowth",
+        location: "Meath, Ireland",
+        country: "Ireland",
+        wonder: false,
+        image: "/assets/images/ancient/Knowth.jpg",
+        imageAlt: "The passage tomb at Knowth",
+        visited: "2026",
+        review: 
+            "I only discovered Knowth when booking a tour of Newgrange, and I suspect that is how most people find it. The passage tombs themselves cannot be entered, but the site more than compensates. The kerbstones at Knowth contain roughly a third of all megalithic art in Western Europe, and the complex feels less curated and more genuinely ancient than its more famous neighbour down the road.",
+    },
+    {
         name: "Agora of Athens",
         location: "Athens, Greece",
         country: "Greece",
@@ -174,6 +185,17 @@ const sites = [
         visited: "2025",
         review: 
             "Quieter and less pressured than the Acropolis, the Agora rewards the extra hour. The Temple of Hephaestus is the most intact ancient temple in Greece and reason enough to visit, and the museum inside the Stoa of Attalos is better than it looks from the outside. If you are pushed for time the Acropolis wins, but if you can do both, do both.",
+    },
+    {
+        name: "Newgrange",
+        location: "Meath, Ireland",
+        country: "Ireland",
+        wonder: false,
+        image: "/assets/images/ancient/Newgrange.jpg",
+        imageAlt: "The passage tomb at Newgrange",
+        visited: "2026",
+        review: 
+            "The corbelled ceiling, still intact after 5,200 years, is one of the most remarkable things I have encountered at any ancient site anywhere in the world. On that alone, Newgrange earns its place at this spot in this list. The caveat is a significant one. The reconstructed white quartz facade, a product of Michael O'Kelly's controversial restoration in the 1970s, is almost certainly inaccurate and gives the monument a theme park quality that sits uneasily against everything inside it.",
     },
     {
         name: "Diocletian's Palace",
@@ -273,6 +295,17 @@ const sites = [
         visited: "2016",
         review:
             "Completed in 80 AD by Emperor Titus, the Colosseum is an engineering marvel and one of the most recognisable buildings on earth. Unfortunately, decades of mass tourism have taken a heavy toll on the experience: queue times are punishing, the site is overcrowded, and the facilities fall far short of what you would expect. Book tickets well in advance, choose the earliest entry slot, and manage your expectations. The history is real; the experience has been badly managed.",
+    },
+    {
+        name: "Tower of Hercules",
+        location: "A Coruña, Spain",
+        country: "Spain",
+        wonder: false,
+        image: "/assets/images/ancient/TowerOfHercules.jpg",
+        imageAlt: "The Tower of Hercules in A Coruña",
+        visited: "2026",
+        review: 
+            "The oldest known Roman lighthouse still standing, built in the first century AD and restored in the eighteenth, the Tower of Hercules was my first ancient site in Spain. An interesting stop, but one that feels like a missed opportunity. Information is sparse, signage is limited, and you are largely left to fill in the gaps yourself.",
     },
     {
         name: "Tulum",
